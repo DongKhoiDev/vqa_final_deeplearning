@@ -1,0 +1,1352 @@
+[
+  {
+    "image": "00007.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Biển báo bến xe tải."
+  },
+  {
+    "image": "00007.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển chỉ dẫn."
+  },
+  {
+    "image": "00007.png",
+    "question": "Màu nền của biển báo là gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00007.png",
+    "question": "Biển báo có hình dạng gì?",
+    "answer": "Hình chữ nhật."
+  },
+  {
+    "image": "00007.png",
+    "question": "Trên biển báo có hình loại phương tiện nào?",
+    "answer": "Hình xe tải."
+  },
+  {
+    "image": "00007.png",
+    "question": "Biển báo này có cấm xe tải không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00007.png",
+    "question": "Có bao nhiêu chiếc xe tải trên biển báo?",
+    "answer": "Một chiếc xe tải."
+  },
+  {
+    "image": "00007.png",
+    "question": "Dòng chữ trên biển báo là gì?",
+    "answer": "BẾN XE TẢI."
+  },
+  {
+    "image": "00007.png",
+    "question": "Biển báo này có màu trắng không?",
+    "answer": "Có, ở phần nền trung tâm."
+  },
+  {
+    "image": "00007.png",
+    "question": "Người lái xe tải nên làm gì khi thấy biển này?",
+    "answer": "Có thể dừng đỗ tại bến xe tải."
+  },
+  {
+    "image": "00008.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Biển báo bệnh viện."
+  },
+  {
+    "image": "00008.png",
+    "question": "Đây thuộc loại biển báo nào?",
+    "answer": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00008.png",
+    "question": "Nền của biển báo này có màu gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00008.png",
+    "question": "Biển báo có hình dạng gì?",
+    "answer": "Hình vuông."
+  },
+  {
+    "image": "00008.png",
+    "question": "Trên biển có hình chữ thập màu gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00008.png",
+    "question": "Biển báo này có cấm xe đi vào không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00008.png",
+    "question": "Có bao nhiêu cái giường trên biển báo?",
+    "answer": "Một cái giường."
+  },
+  {
+    "image": "00008.png",
+    "question": "Hình cái giường trên biển báo có màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00008.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Biết phía trước có bệnh viện."
+  },
+  {
+    "image": "00008.png",
+    "question": "Biển báo này có nằm trong môi trường thực tế không?",
+    "answer": "Không, đây là ảnh đồ họa."
+  },
+  {
+    "image": "00009.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Chỉ dẫn hướng đi đường C Lộ 1."
+  },
+  {
+    "image": "00009.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển chỉ dẫn."
+  },
+  {
+    "image": "00009.png",
+    "question": "Màu nền của biển báo là màu gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00009.png",
+    "question": "Hình dạng của biển báo như thế nào?",
+    "answer": "Hình chữ nhật."
+  },
+  {
+    "image": "00009.png",
+    "question": "Trên biển có ghi địa danh nào?",
+    "answer": "Hà Nội và Hòa Lạc."
+  },
+  {
+    "image": "00009.png",
+    "question": "Biển báo có sử dụng màu trắng không?",
+    "answer": "Có, dùng cho chữ và ký hiệu."
+  },
+  {
+    "image": "00009.png",
+    "question": "Có bao nhiêu địa danh được liệt kê?",
+    "answer": "Hai địa danh."
+  },
+  {
+    "image": "00009.png",
+    "question": "Biển báo có mũi tên chỉ dẫn không?",
+    "answer": "Có, ký hiệu đường giao thông."
+  },
+  {
+    "image": "00009.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Quan sát và đi đúng hướng chỉ dẫn."
+  },
+  {
+    "image": "00009.png",
+    "question": "Biển này có lắp đặt ở môi trường trong nhà không?",
+    "answer": "Không rõ."
+  },
+  {
+    "image": "00013.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Chỉ dẫn đường đến bến tàu thủy."
+  },
+  {
+    "image": "00013.png",
+    "question": "Đây thuộc nhóm biển báo nào?",
+    "answer": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00013.png",
+    "question": "Màu nền chủ đạo của biển báo là gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00013.png",
+    "question": "Hình dạng của biển báo như thế nào?",
+    "answer": "Hình mũi tên."
+  },
+  {
+    "image": "00013.png",
+    "question": "Trên biển báo có hình biểu tượng gì?",
+    "answer": "Hình cái neo tàu."
+  },
+  {
+    "image": "00013.png",
+    "question": "Biển báo có hiển thị song ngữ không?",
+    "answer": "Có, tiếng Việt và tiếng Anh."
+  },
+  {
+    "image": "00013.png",
+    "question": "Có bao nhiêu ký hiệu neo trên biển?",
+    "answer": "Một cái neo."
+  },
+  {
+    "image": "00013.png",
+    "question": "Biển báo này dành cho phương tiện nào?",
+    "answer": "Người muốn tìm bến tàu thủy."
+  },
+  {
+    "image": "00013.png",
+    "question": "Hướng của biển báo này là hướng nào?",
+    "answer": "Hướng bên trái."
+  },
+  {
+    "image": "00013.png",
+    "question": "Màu sắc của chữ viết trên biển là gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00023.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Chỉ dẫn đến trạm xăng dầu."
+  },
+  {
+    "image": "00023.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00023.png",
+    "question": "Nền của biển báo có màu gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00023.png",
+    "question": "Biển báo có hình dạng gì?",
+    "answer": "Hình mũi tên hướng sang trái."
+  },
+  {
+    "image": "00023.png",
+    "question": "Trên biển báo có bao nhiêu ký hiệu cây xăng?",
+    "answer": "Một ký hiệu cây xăng."
+  },
+  {
+    "image": "00023.png",
+    "question": "Biển báo có ghi chữ bằng tiếng Anh không?",
+    "answer": "Có, ghi chữ Gasoline."
+  },
+  {
+    "image": "00023.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Rẽ hướng mũi tên để đến trạm xăng."
+  },
+  {
+    "image": "00023.png",
+    "question": "Nền của ảnh chụp này là gì?",
+    "answer": "Không rõ."
+  },
+  {
+    "image": "00023.png",
+    "question": "Chữ trên biển báo có màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00023.png",
+    "question": "Biển báo có chứa hình người không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00024.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Biển chỉ dẫn đường bộ đối ngoại AH112."
+  },
+  {
+    "image": "00024.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển chỉ dẫn."
+  },
+  {
+    "image": "00024.png",
+    "question": "Màu nền của biển báo là gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00024.png",
+    "question": "Biển báo có hình dạng gì?",
+    "answer": "Hình chữ nhật."
+  },
+  {
+    "image": "00024.png",
+    "question": "Ký tự trên biển báo là gì?",
+    "answer": "AH112."
+  },
+  {
+    "image": "00024.png",
+    "question": "Nền của ảnh có vật thể nào khác không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00024.png",
+    "question": "Biển báo này có màu đỏ không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00024.png",
+    "question": "Có bao nhiêu con số xuất hiện trên biển?",
+    "answer": "Ba con số."
+  },
+  {
+    "image": "00024.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Nhận biết đây là đường AH112."
+  },
+  {
+    "image": "00024.png",
+    "question": "Màu sắc của các chữ cái trên biển là gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00027.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Bắt buộc phải rẽ phải."
+  },
+  {
+    "image": "00027.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo hiệu lệnh."
+  },
+  {
+    "image": "00027.png",
+    "question": "Biển báo này có hình dạng gì?",
+    "answer": "Hình tròn."
+  },
+  {
+    "image": "00027.png",
+    "question": "Màu nền của biển báo là màu gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00027.png",
+    "question": "Màu sắc của mũi tên trên biển là gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00027.png",
+    "question": "Biển báo này có cấm rẽ trái không?",
+    "answer": "Có."
+  },
+  {
+    "image": "00027.png",
+    "question": "Có bao nhiêu mũi tên trên biển báo?",
+    "answer": "Một mũi tên."
+  },
+  {
+    "image": "00027.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Phải rẽ phải."
+  },
+  {
+    "image": "00027.png",
+    "question": "Nền của ảnh này có màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00027.png",
+    "question": "Biển báo này có nằm trong đô thị không?",
+    "answer": "Không rõ."
+  },
+  {
+    "image": "00036.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Cấm rẽ trái và đi thẳng."
+  },
+  {
+    "image": "00036.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo cấm."
+  },
+  {
+    "image": "00036.png",
+    "question": "Hình dạng của biển báo là gì?",
+    "answer": "Hình tròn."
+  },
+  {
+    "image": "00036.png",
+    "question": "Màu sắc chủ đạo của viền và đường gạch chéo là gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00036.png",
+    "question": "Biển báo có sử dụng màu trắng làm nền không?",
+    "answer": "Có."
+  },
+  {
+    "image": "00036.png",
+    "question": "Có bao nhiêu mũi tên trên biển báo?",
+    "answer": "Hai mũi tên."
+  },
+  {
+    "image": "00036.png",
+    "question": "Người lái xe có được phép đi thẳng không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00036.png",
+    "question": "Biển báo này có nền màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00036.png",
+    "question": "Màu sắc của các mũi tên là gì?",
+    "answer": "Màu đen."
+  },
+  {
+    "image": "00036.png",
+    "question": "Biển báo này có vị trí gắn cụ thể không?",
+    "answer": "Không rõ."
+  },
+  {
+    "image": "00051.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Cấm rẽ trái."
+  },
+  {
+    "image": "00051.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo cấm."
+  },
+  {
+    "image": "00051.png",
+    "question": "Biển báo có hình dạng gì?",
+    "answer": "Hình tròn."
+  },
+  {
+    "image": "00051.png",
+    "question": "Màu sắc chủ đạo của viền và gạch chéo là gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00051.png",
+    "question": "Ký hiệu trên biển báo là gì?",
+    "answer": "Mũi tên rẽ trái màu đen."
+  },
+  {
+    "image": "00051.png",
+    "question": "Có bao nhiêu mũi tên trên biển báo?",
+    "answer": "Một mũi tên."
+  },
+  {
+    "image": "00051.png",
+    "question": "Người lái xe có được phép rẽ trái không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00051.png",
+    "question": "Biển báo này có nền màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00051.png",
+    "question": "Nền xung quanh của ảnh này là gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00051.png",
+    "question": "Biển báo này có phải là biển chỉ dẫn không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00056.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Cấm xe thô sơ loại xe kéo tay."
+  },
+  {
+    "image": "00056.png",
+    "question": "Đây thuộc nhóm biển báo nào?",
+    "answer": "Biển báo cấm."
+  },
+  {
+    "image": "00056.png",
+    "question": "Nền của biển báo này có màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00056.png",
+    "question": "Biển báo có hình dạng gì?",
+    "answer": "Hình tròn."
+  },
+  {
+    "image": "00056.png",
+    "question": "Có vạch đỏ gạch chéo trên biển báo không?",
+    "answer": "Có."
+  },
+  {
+    "image": "00056.png",
+    "question": "Trong hình có bao nhiêu người?",
+    "answer": "Một người."
+  },
+  {
+    "image": "00056.png",
+    "question": "Người trong biển báo đang làm gì?",
+    "answer": "Đang kéo xe thô sơ."
+  },
+  {
+    "image": "00056.png",
+    "question": "Người tham gia giao thông có được phép đi vào không?",
+    "answer": "Không được phép."
+  },
+  {
+    "image": "00056.png",
+    "question": "Màu sắc chủ đạo của biển báo là gì?",
+    "answer": "Đỏ, trắng và đen."
+  },
+  {
+    "image": "00056.png",
+    "question": "Biển báo này có viền màu gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00058.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Cấm xe súc vật kéo."
+  },
+  {
+    "image": "00058.png",
+    "question": "Đây thuộc loại biển báo nào?",
+    "answer": "Biển báo cấm."
+  },
+  {
+    "image": "00058.png",
+    "question": "Biển báo có hình dạng gì?",
+    "answer": "Hình tròn."
+  },
+  {
+    "image": "00058.png",
+    "question": "Màu sắc chủ đạo của viền và gạch chéo là gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00058.png",
+    "question": "Biểu tượng bên trong biển báo có màu gì?",
+    "answer": "Màu đen."
+  },
+  {
+    "image": "00058.png",
+    "question": "Nền của biển báo này là màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00058.png",
+    "question": "Đây có phải là biển báo cho phép xe súc vật đi vào không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00058.png",
+    "question": "Có bao nhiêu con vật trong biển báo?",
+    "answer": "Một con bò."
+  },
+  {
+    "image": "00058.png",
+    "question": "Người điều khiển xe súc vật cần làm gì khi thấy biển này?",
+    "answer": "Không được đi vào đường có biển này."
+  },
+  {
+    "image": "00058.png",
+    "question": "Có vật thể nào khác ngoài xe kéo và con vật không?",
+    "answer": "Không có."
+  },
+  {
+    "image": "00060.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Cấm xe đạp đi vào."
+  },
+  {
+    "image": "00060.png",
+    "question": "Đây thuộc nhóm biển báo nào?",
+    "answer": "Biển báo cấm."
+  },
+  {
+    "image": "00060.png",
+    "question": "Nền của biển báo có màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00060.png",
+    "question": "Biển báo này có hình dạng gì?",
+    "answer": "Hình tròn."
+  },
+  {
+    "image": "00060.png",
+    "question": "Trên biển báo có hình phương tiện gì?",
+    "answer": "Hình xe đạp."
+  },
+  {
+    "image": "00060.png",
+    "question": "Có vật thể xung quanh biển báo không?",
+    "answer": "Không thấy vật thể xung quanh."
+  },
+  {
+    "image": "00060.png",
+    "question": "Biển báo này có cho phép xe đạp đi vào không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00060.png",
+    "question": "Có bao nhiêu hình xe đạp trên biển báo?",
+    "answer": "Một chiếc xe đạp."
+  },
+  {
+    "image": "00060.png",
+    "question": "Người đi xe đạp nên làm gì khi gặp biển này?",
+    "answer": "Không được đi vào đường này."
+  },
+  {
+    "image": "00060.png",
+    "question": "Biển báo có đường gạch chéo màu gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00063.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Cấm xe máy đi vào."
+  },
+  {
+    "image": "00063.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo cấm."
+  },
+  {
+    "image": "00063.png",
+    "question": "Màu sắc chủ đạo của viền biển báo là gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00063.png",
+    "question": "Hình dạng của biển báo này như thế nào?",
+    "answer": "Hình tròn."
+  },
+  {
+    "image": "00063.png",
+    "question": "Có hình ảnh phương tiện nào trên biển báo?",
+    "answer": "Hình chiếc xe máy."
+  },
+  {
+    "image": "00063.png",
+    "question": "Nền của biển báo có màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00063.png",
+    "question": "Biển báo này có cho phép xe máy đi qua không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00063.png",
+    "question": "Có bao nhiêu xe máy được vẽ trên biển báo?",
+    "answer": "Một xe máy."
+  },
+  {
+    "image": "00063.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Không lái xe máy vào đường cấm."
+  },
+  {
+    "image": "00063.png",
+    "question": "Biển báo này có gắn trên cột đèn không?",
+    "answer": "Không rõ."
+  },
+  {
+    "image": "00109.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Đường dành cho ô tô và xe máy."
+  },
+  {
+    "image": "00109.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00109.png",
+    "question": "Nền của biển báo có màu gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00109.png",
+    "question": "Hình dạng của biển báo là hình gì?",
+    "answer": "Hình chữ nhật."
+  },
+  {
+    "image": "00109.png",
+    "question": "Biển báo có chứa hình xe đạp không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00109.png",
+    "question": "Có bao nhiêu phương tiện được hiển thị trên biển?",
+    "answer": "Hai phương tiện."
+  },
+  {
+    "image": "00109.png",
+    "question": "Người lái xe máy có đang đội mũ bảo hiểm không?",
+    "answer": "Có."
+  },
+  {
+    "image": "00109.png",
+    "question": "Màu sắc của các hình vẽ trên biển là gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00109.png",
+    "question": "Người tham gia giao thông nên làm gì khi thấy biển này?",
+    "answer": "Di chuyển đúng làn đường quy định."
+  },
+  {
+    "image": "00109.png",
+    "question": "Nền của biển có màu đỏ không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00130.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Cấm xe có chiều dài toàn bộ vượt quá 9 mét."
+  },
+  {
+    "image": "00130.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo cấm."
+  },
+  {
+    "image": "00130.png",
+    "question": "Biển báo này có hình dạng gì?",
+    "answer": "Hình tròn."
+  },
+  {
+    "image": "00130.png",
+    "question": "Màu sắc chủ đạo của viền biển báo là gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00130.png",
+    "question": "Có bao nhiêu ký hiệu mũi tên trên biển?",
+    "answer": "Hai mũi tên."
+  },
+  {
+    "image": "00130.png",
+    "question": "Biển báo này có cấm xe máy không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00130.png",
+    "question": "Trên biển ghi con số bao nhiêu?",
+    "answer": "Số 9."
+  },
+  {
+    "image": "00130.png",
+    "question": "Nền của biển báo có màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00130.png",
+    "question": "Người lái xe tải dài trên 9m có được đi qua không?",
+    "answer": "Không được."
+  },
+  {
+    "image": "00130.png",
+    "question": "Trong ảnh có xuất hiện cây cối không?",
+    "answer": "Không rõ."
+  },
+  {
+    "image": "00140.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Hết đoạn đường dành cho xe điện."
+  },
+  {
+    "image": "00140.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo hiệu lệnh."
+  },
+  {
+    "image": "00140.png",
+    "question": "Màu nền chủ đạo của biển báo là màu gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00140.png",
+    "question": "Hình dạng của biển báo này là gì?",
+    "answer": "Hình chữ nhật."
+  },
+  {
+    "image": "00140.png",
+    "question": "Có vạch kẻ chéo màu đỏ trên biển báo không?",
+    "answer": "Có."
+  },
+  {
+    "image": "00140.png",
+    "question": "Có bao nhiêu hình vẽ xe điện trên biển báo?",
+    "answer": "Hai chiếc."
+  },
+  {
+    "image": "00140.png",
+    "question": "Người tham gia giao thông cần làm gì khi thấy biển?",
+    "answer": "Không được coi là đường riêng cho xe điện."
+  },
+  {
+    "image": "00140.png",
+    "question": "Ký hiệu trên biển báo có màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00140.png",
+    "question": "Biển báo có hiển thị hình ảnh người lái xe không?",
+    "answer": "Có."
+  },
+  {
+    "image": "00140.png",
+    "question": "Có vật thể nào khác ngoài xe điện trên biển không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00141.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Hết đoạn đường dành cho xe điện."
+  },
+  {
+    "image": "00141.png",
+    "question": "Đây thuộc loại biển báo gì?",
+    "answer": "Biển báo hiệu lệnh."
+  },
+  {
+    "image": "00141.png",
+    "question": "Màu nền của biển báo là gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00141.png",
+    "question": "Hình dạng của biển báo này là gì?",
+    "answer": "Hình chữ nhật."
+  },
+  {
+    "image": "00141.png",
+    "question": "Có vạch đỏ nào trên biển báo không?",
+    "answer": "Có, một vạch đỏ gạch chéo."
+  },
+  {
+    "image": "00141.png",
+    "question": "Trên biển có mấy người ngồi trên xe?",
+    "answer": "Có hai người."
+  },
+  {
+    "image": "00141.png",
+    "question": "Biển báo này có phải biển cấm không?",
+    "answer": "Không, đây là biển báo hiệu lệnh."
+  },
+  {
+    "image": "00141.png",
+    "question": "Ký hiệu chính trên biển là loại phương tiện gì?",
+    "answer": "Xe điện du lịch."
+  },
+  {
+    "image": "00141.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Kết thúc khu vực ưu tiên xe điện."
+  },
+  {
+    "image": "00141.png",
+    "question": "Nền của ảnh chụp biển báo này là gì?",
+    "answer": "Không rõ."
+  },
+  {
+    "image": "00144.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Báo hiệu đường bị thu hẹp hai bên."
+  },
+  {
+    "image": "00144.png",
+    "question": "Đây thuộc loại biển báo nào?",
+    "answer": "Biển báo nguy hiểm."
+  },
+  {
+    "image": "00144.png",
+    "question": "Biển báo này có hình dạng gì?",
+    "answer": "Hình tam giác đều."
+  },
+  {
+    "image": "00144.png",
+    "question": "Màu nền của biển báo là màu gì?",
+    "answer": "Màu vàng."
+  },
+  {
+    "image": "00144.png",
+    "question": "Biển báo có mấy mũi tên màu đen?",
+    "answer": "Hai mũi tên."
+  },
+  {
+    "image": "00144.png",
+    "question": "Biển báo này có viền màu gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00144.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Giảm tốc độ và chú ý quan sát."
+  },
+  {
+    "image": "00144.png",
+    "question": "Có vật cản ở giữa biển báo không?",
+    "answer": "Có, một chướng ngại vật nhỏ."
+  },
+  {
+    "image": "00144.png",
+    "question": "Đây có phải biển báo cấm không?",
+    "answer": "Không phải."
+  },
+  {
+    "image": "00144.png",
+    "question": "Nền phía sau biển báo là màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00152.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Hết khu đông dân cư."
+  },
+  {
+    "image": "00152.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00152.png",
+    "question": "Nền của biển báo có màu gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00152.png",
+    "question": "Biển báo có hình dạng gì?",
+    "answer": "Hình chữ nhật."
+  },
+  {
+    "image": "00152.png",
+    "question": "Trên biển báo có vạch kẻ màu gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00152.png",
+    "question": "Biển báo có cấm xe vào không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00152.png",
+    "question": "Có bao nhiêu hình tòa nhà màu trắng?",
+    "answer": "Bốn tòa nhà."
+  },
+  {
+    "image": "00152.png",
+    "question": "Vạch kẻ đỏ trên biển báo nằm theo hướng nào?",
+    "answer": "Từ góc dưới trái lên góc trên phải."
+  },
+  {
+    "image": "00152.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Có thể tăng tốc độ theo quy định."
+  },
+  {
+    "image": "00152.png",
+    "question": "Biển báo này được gắn ở đâu?",
+    "answer": "Không rõ."
+  },
+  {
+    "image": "00155.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Chỉ dẫn hướng đi trên các làn đường."
+  },
+  {
+    "image": "00155.png",
+    "question": "Biển báo này thuộc nhóm biển báo nào?",
+    "answer": "Biển chỉ dẫn."
+  },
+  {
+    "image": "00155.png",
+    "question": "Nền của biển báo có màu gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00155.png",
+    "question": "Hình dạng tổng thể của biển báo này là gì?",
+    "answer": "Hình chữ nhật."
+  },
+  {
+    "image": "00155.png",
+    "question": "Có mũi tên hướng rẽ trái trên biển không?",
+    "answer": "Có."
+  },
+  {
+    "image": "00155.png",
+    "question": "Có bao nhiêu mũi tên được vẽ trên biển?",
+    "answer": "Ba mũi tên."
+  },
+  {
+    "image": "00155.png",
+    "question": "Biển báo có chứa màu trắng không?",
+    "answer": "Có, các mũi tên và đường kẻ có màu trắng."
+  },
+  {
+    "image": "00155.png",
+    "question": "Hướng đi của mũi tên bên phải là gì?",
+    "answer": "Rẽ phải."
+  },
+  {
+    "image": "00155.png",
+    "question": "Người lái xe ở làn giữa nên đi thế nào?",
+    "answer": "Đi thẳng."
+  },
+  {
+    "image": "00155.png",
+    "question": "Biển này có thông tin về tốc độ không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00167.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Thông báo có khách sạn gần đây."
+  },
+  {
+    "image": "00167.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển chỉ dẫn."
+  },
+  {
+    "image": "00167.png",
+    "question": "Màu nền của biển báo là gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00167.png",
+    "question": "Biển báo có hình dạng gì?",
+    "answer": "Hình chữ nhật."
+  },
+  {
+    "image": "00167.png",
+    "question": "Có bao nhiêu cái giường trên biển báo?",
+    "answer": "Một cái."
+  },
+  {
+    "image": "00167.png",
+    "question": "Biển báo có chữ viết không?",
+    "answer": "Có, chữ KHÁCH SẠN."
+  },
+  {
+    "image": "00167.png",
+    "question": "Ký hiệu trên biển báo là hình gì?",
+    "answer": "Hình chiếc giường."
+  },
+  {
+    "image": "00167.png",
+    "question": "Biển báo này có cấm xe đi lại không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00167.png",
+    "question": "Màu của chiếc giường trên biển là gì?",
+    "answer": "Màu đen."
+  },
+  {
+    "image": "00167.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Có thể dừng nghỉ tại khách sạn."
+  },
+  {
+    "image": "00174.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Chỉ dẫn hướng rẽ vào bãi đỗ xe."
+  },
+  {
+    "image": "00174.png",
+    "question": "Đây thuộc nhóm biển báo giao thông nào?",
+    "answer": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00174.png",
+    "question": "Màu nền của biển báo là màu gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00174.png",
+    "question": "Mũi tên trên biển báo có màu gì?",
+    "answer": "Màu đen."
+  },
+  {
+    "image": "00174.png",
+    "question": "Biển báo có hình dạng gì?",
+    "answer": "Hình vuông."
+  },
+  {
+    "image": "00174.png",
+    "question": "Biển báo này có cho phép đi thẳng không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00174.png",
+    "question": "Có bao nhiêu mũi tên xuất hiện trên biển?",
+    "answer": "Một mũi tên."
+  },
+  {
+    "image": "00174.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Rẽ theo hướng mũi tên để đỗ xe."
+  },
+  {
+    "image": "00174.png",
+    "question": "Nền của ảnh có vật thể nào khác không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00174.png",
+    "question": "Hướng rẽ được chỉ định trên biển là bên nào?",
+    "answer": "Bên trái."
+  },
+  {
+    "image": "00184.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Cảnh báo gia súc sang đường."
+  },
+  {
+    "image": "00184.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo nguy hiểm."
+  },
+  {
+    "image": "00184.png",
+    "question": "Biển báo có hình dạng gì?",
+    "answer": "Hình tam giác."
+  },
+  {
+    "image": "00184.png",
+    "question": "Màu nền của biển báo là gì?",
+    "answer": "Màu vàng."
+  },
+  {
+    "image": "00184.png",
+    "question": "Màu của đường viền biển báo là gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00184.png",
+    "question": "Có bao nhiêu con vật trên biển báo?",
+    "answer": "Một con bò."
+  },
+  {
+    "image": "00184.png",
+    "question": "Biển báo có màu trắng không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00184.png",
+    "question": "Ký hiệu trên biển báo màu gì?",
+    "answer": "Màu đen."
+  },
+  {
+    "image": "00184.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Giảm tốc độ và chú ý quan sát."
+  },
+  {
+    "image": "00184.png",
+    "question": "Nền xung quanh biển báo là màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00189.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Báo hiệu đá lở."
+  },
+  {
+    "image": "00189.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo nguy hiểm."
+  },
+  {
+    "image": "00189.png",
+    "question": "Biển báo có hình dạng gì?",
+    "answer": "Hình tam giác đều."
+  },
+  {
+    "image": "00189.png",
+    "question": "Màu sắc chủ đạo của nền biển là gì?",
+    "answer": "Màu vàng."
+  },
+  {
+    "image": "00189.png",
+    "question": "Viền của biển báo có màu gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00189.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Giảm tốc độ và chú ý quan sát."
+  },
+  {
+    "image": "00189.png",
+    "question": "Biển báo này có hình tròn không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00189.png",
+    "question": "Có bao nhiêu hình đá nhỏ trong biển báo?",
+    "answer": "Nhiều hơn 10 viên."
+  },
+  {
+    "image": "00189.png",
+    "question": "Nền của ảnh này có màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00189.png",
+    "question": "Biển báo này có phải cảnh báo nguy hiểm không?",
+    "answer": "Có."
+  },
+  {
+    "image": "00190.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Yêu cầu người lái xe đi chậm lại."
+  },
+  {
+    "image": "00190.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo nguy hiểm."
+  },
+  {
+    "image": "00190.png",
+    "question": "Biển báo có hình dạng gì?",
+    "answer": "Hình tam giác đều."
+  },
+  {
+    "image": "00190.png",
+    "question": "Màu nền của biển báo là màu gì?",
+    "answer": "Màu vàng."
+  },
+  {
+    "image": "00190.png",
+    "question": "Viền của biển báo có màu gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00190.png",
+    "question": "Biển báo có vật thể nào khác xung quanh không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00190.png",
+    "question": "Biển báo này có hình tròn không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00190.png",
+    "question": "Có bao nhiêu từ được viết trên biển báo?",
+    "answer": "Hai từ."
+  },
+  {
+    "image": "00190.png",
+    "question": "Người tham gia giao thông nên làm gì khi thấy biển này?",
+    "answer": "Giảm tốc độ xe."
+  },
+  {
+    "image": "00190.png",
+    "question": "Màu sắc của chữ viết trên biển là gì?",
+    "answer": "Màu đen."
+  },
+  {
+    "image": "00229.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Báo hiệu đường bị thu hẹp bên phải."
+  },
+  {
+    "image": "00229.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo nguy hiểm."
+  },
+  {
+    "image": "00229.png",
+    "question": "Nền của biển báo có màu gì?",
+    "answer": "Màu vàng."
+  },
+  {
+    "image": "00229.png",
+    "question": "Biển báo này có hình dạng gì?",
+    "answer": "Hình tam giác đều."
+  },
+  {
+    "image": "00229.png",
+    "question": "Trên biển báo có bao nhiêu ký hiệu?",
+    "answer": "Hai ký hiệu."
+  },
+  {
+    "image": "00229.png",
+    "question": "Viền của biển báo có màu gì?",
+    "answer": "Màu đỏ."
+  },
+  {
+    "image": "00229.png",
+    "question": "Biển báo này có cảnh báo đường trơn không?",
+    "answer": "Không."
+  },
+  {
+    "image": "00229.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Giảm tốc độ và chú ý quan sát."
+  },
+  {
+    "image": "00229.png",
+    "question": "Biển báo này được gắn ở đâu?",
+    "answer": "Không rõ."
+  },
+  {
+    "image": "00229.png",
+    "question": "Ký hiệu trên biển là hình gì?",
+    "answer": "Hình mũi tên và một khối hình thang."
+  },
+  {
+    "image": "00258.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "answer": "Báo hiệu đoạn đường xuống dốc liên tục."
+  },
+  {
+    "image": "00258.png",
+    "question": "Đây là loại biển báo gì?",
+    "answer": "Biển báo hiệu lệnh hoặc chỉ dẫn."
+  },
+  {
+    "image": "00258.png",
+    "question": "Biển báo có màu nền chủ đạo là gì?",
+    "answer": "Màu xanh dương."
+  },
+  {
+    "image": "00258.png",
+    "question": "Biển báo này có hình dạng gì?",
+    "answer": "Hình chữ nhật nằm ngang."
+  },
+  {
+    "image": "00258.png",
+    "question": "Có bao nhiêu mũi tên xuất hiện trên biển báo?",
+    "answer": "Hai mũi tên."
+  },
+  {
+    "image": "00258.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "answer": "Giảm tốc độ, kiểm soát phanh xe."
+  },
+  {
+    "image": "00258.png",
+    "question": "Chữ viết trên biển báo có màu gì?",
+    "answer": "Màu trắng."
+  },
+  {
+    "image": "00258.png",
+    "question": "Biển báo có phải hình tròn không?",
+    "answer": "Không, biển hình chữ nhật."
+  },
+  {
+    "image": "00258.png",
+    "question": "Có bao nhiêu dòng chữ trên biển báo?",
+    "answer": "Hai dòng chữ."
+  },
+  {
+    "image": "00258.png",
+    "question": "Nền của phần chứa ký hiệu có màu gì?",
+    "answer": "Màu trắng."
+  }
+]

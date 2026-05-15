@@ -1,0 +1,1622 @@
+[
+  {
+    "image": "00007.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Biển báo bến xe tải.",
+    "prediction": "Cảnh báo không được phép dừng xe."
+  },
+  {
+    "image": "00007.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển chỉ dẫn.",
+    "prediction": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00007.png",
+    "question": "Màu nền của biển báo là gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu xanh dương."
+  },
+  {
+    "image": "00007.png",
+    "question": "Biển báo có hình dạng gì?",
+    "reference": "Hình chữ nhật.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00007.png",
+    "question": "Trên biển báo có hình loại phương tiện nào?",
+    "reference": "Hình xe tải.",
+    "prediction": "Hình xe tải."
+  },
+  {
+    "image": "00007.png",
+    "question": "Biển báo này có cấm xe tải không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00007.png",
+    "question": "Có bao nhiêu chiếc xe tải trên biển báo?",
+    "reference": "Một chiếc xe tải.",
+    "prediction": "Một chiếc."
+  },
+  {
+    "image": "00007.png",
+    "question": "Dòng chữ trên biển báo là gì?",
+    "reference": "BẾN XE TẢI.",
+    "prediction": "Tên đường."
+  },
+  {
+    "image": "00007.png",
+    "question": "Biển báo này có màu trắng không?",
+    "reference": "Có, ở phần nền trung tâm.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00007.png",
+    "question": "Người lái xe tải nên làm gì khi thấy biển này?",
+    "reference": "Có thể dừng đỗ tại bến xe tải.",
+    "prediction": "Đưa xe ra khỏi đường."
+  },
+  {
+    "image": "00008.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Biển báo bệnh viện.",
+    "prediction": "Biển báo chỉ dẫn đến phòng khám y tế"
+  },
+  {
+    "image": "00008.png",
+    "question": "Đây thuộc loại biển báo nào?",
+    "reference": "Biển báo chỉ dẫn.",
+    "prediction": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00008.png",
+    "question": "Nền của biển báo này có màu gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu xanh dương."
+  },
+  {
+    "image": "00008.png",
+    "question": "Biển báo có hình dạng gì?",
+    "reference": "Hình vuông.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00008.png",
+    "question": "Trên biển có hình chữ thập màu gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00008.png",
+    "question": "Biển báo này có cấm xe đi vào không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00008.png",
+    "question": "Có bao nhiêu cái giường trên biển báo?",
+    "reference": "Một cái giường.",
+    "prediction": "Một cái."
+  },
+  {
+    "image": "00008.png",
+    "question": "Hình cái giường trên biển báo có màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00008.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Biết phía trước có bệnh viện.",
+    "prediction": "Mở cửa xe để vào bệnh viện."
+  },
+  {
+    "image": "00008.png",
+    "question": "Biển báo này có nằm trong môi trường thực tế không?",
+    "reference": "Không, đây là ảnh đồ họa.",
+    "prediction": "Không rõ."
+  },
+  {
+    "image": "00009.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Chỉ dẫn hướng đi đường C Lộ 1.",
+    "prediction": "Báo hiệu đường đi từ Hà Nội về Hòa"
+  },
+  {
+    "image": "00009.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển chỉ dẫn.",
+    "prediction": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00009.png",
+    "question": "Màu nền của biển báo là màu gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu xanh dương."
+  },
+  {
+    "image": "00009.png",
+    "question": "Hình dạng của biển báo như thế nào?",
+    "reference": "Hình chữ nhật.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00009.png",
+    "question": "Trên biển có ghi địa danh nào?",
+    "reference": "Hà Nội và Hòa Lạc.",
+    "prediction": "Hà Nội, Hòa Lạc."
+  },
+  {
+    "image": "00009.png",
+    "question": "Biển báo có sử dụng màu trắng không?",
+    "reference": "Có, dùng cho chữ và ký hiệu.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00009.png",
+    "question": "Có bao nhiêu địa danh được liệt kê?",
+    "reference": "Hai địa danh.",
+    "prediction": "Một địa danh."
+  },
+  {
+    "image": "00009.png",
+    "question": "Biển báo có mũi tên chỉ dẫn không?",
+    "reference": "Có, ký hiệu đường giao thông.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00009.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Quan sát và đi đúng hướng chỉ dẫn.",
+    "prediction": "Điều chỉnh tốc độ và đường đi."
+  },
+  {
+    "image": "00009.png",
+    "question": "Biển này có lắp đặt ở môi trường trong nhà không?",
+    "reference": "Không rõ.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00013.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Chỉ dẫn đường đến bến tàu thủy.",
+    "prediction": "Bến tàu thủy."
+  },
+  {
+    "image": "00013.png",
+    "question": "Đây thuộc nhóm biển báo nào?",
+    "reference": "Biển báo chỉ dẫn.",
+    "prediction": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00013.png",
+    "question": "Màu nền chủ đạo của biển báo là gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu xanh dương."
+  },
+  {
+    "image": "00013.png",
+    "question": "Hình dạng của biển báo như thế nào?",
+    "reference": "Hình mũi tên.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00013.png",
+    "question": "Trên biển báo có hình biểu tượng gì?",
+    "reference": "Hình cái neo tàu.",
+    "prediction": "Hình cột cờ."
+  },
+  {
+    "image": "00013.png",
+    "question": "Biển báo có hiển thị song ngữ không?",
+    "reference": "Có, tiếng Việt và tiếng Anh.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00013.png",
+    "question": "Có bao nhiêu ký hiệu neo trên biển?",
+    "reference": "Một cái neo.",
+    "prediction": "Một ký hiệu."
+  },
+  {
+    "image": "00013.png",
+    "question": "Biển báo này dành cho phương tiện nào?",
+    "reference": "Người muốn tìm bến tàu thủy.",
+    "prediction": "Phương tiện thuyền."
+  },
+  {
+    "image": "00013.png",
+    "question": "Hướng của biển báo này là hướng nào?",
+    "reference": "Hướng bên trái.",
+    "prediction": "Hướng phải."
+  },
+  {
+    "image": "00013.png",
+    "question": "Màu sắc của chữ viết trên biển là gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00023.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Chỉ dẫn đến trạm xăng dầu.",
+    "prediction": "Báo hiệu đường đi vào trạm xăng"
+  },
+  {
+    "image": "00023.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo chỉ dẫn.",
+    "prediction": "Biển chỉ dẫn."
+  },
+  {
+    "image": "00023.png",
+    "question": "Nền của biển báo có màu gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00023.png",
+    "question": "Biển báo có hình dạng gì?",
+    "reference": "Hình mũi tên hướng sang trái.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00023.png",
+    "question": "Trên biển báo có bao nhiêu ký hiệu cây xăng?",
+    "reference": "Một ký hiệu cây xăng.",
+    "prediction": "Một ký hiệu."
+  },
+  {
+    "image": "00023.png",
+    "question": "Biển báo có ghi chữ bằng tiếng Anh không?",
+    "reference": "Có, ghi chữ Gasoline.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00023.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Rẽ hướng mũi tên để đến trạm xăng.",
+    "prediction": "Mãn nguyện đi đúng hướng dẫn."
+  },
+  {
+    "image": "00023.png",
+    "question": "Nền của ảnh chụp này là gì?",
+    "reference": "Không rõ.",
+    "prediction": "Nền màu trắng."
+  },
+  {
+    "image": "00023.png",
+    "question": "Chữ trên biển báo có màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00023.png",
+    "question": "Biển báo có chứa hình người không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00024.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Biển chỉ dẫn đường bộ đối ngoại AH112.",
+    "prediction": "Báo hiệu đường cao tốc AH11"
+  },
+  {
+    "image": "00024.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển chỉ dẫn.",
+    "prediction": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00024.png",
+    "question": "Màu nền của biển báo là gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu xanh dương."
+  },
+  {
+    "image": "00024.png",
+    "question": "Biển báo có hình dạng gì?",
+    "reference": "Hình chữ nhật.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00024.png",
+    "question": "Ký tự trên biển báo là gì?",
+    "reference": "AH112.",
+    "prediction": "Ký hiệu đường."
+  },
+  {
+    "image": "00024.png",
+    "question": "Nền của ảnh có vật thể nào khác không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00024.png",
+    "question": "Biển báo này có màu đỏ không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00024.png",
+    "question": "Có bao nhiêu con số xuất hiện trên biển?",
+    "reference": "Ba con số.",
+    "prediction": "Một con số."
+  },
+  {
+    "image": "00024.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Nhận biết đây là đường AH112.",
+    "prediction": "Điều chỉnh tốc độ và đường đi."
+  },
+  {
+    "image": "00024.png",
+    "question": "Màu sắc của các chữ cái trên biển là gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00027.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Bắt buộc phải rẽ phải.",
+    "prediction": "Biển báo chỉ đường đi trái."
+  },
+  {
+    "image": "00027.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo hiệu lệnh.",
+    "prediction": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00027.png",
+    "question": "Biển báo này có hình dạng gì?",
+    "reference": "Hình tròn.",
+    "prediction": "Hình tròn."
+  },
+  {
+    "image": "00027.png",
+    "question": "Màu nền của biển báo là màu gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu xanh dương."
+  },
+  {
+    "image": "00027.png",
+    "question": "Màu sắc của mũi tên trên biển là gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00027.png",
+    "question": "Biển báo này có cấm rẽ trái không?",
+    "reference": "Có.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00027.png",
+    "question": "Có bao nhiêu mũi tên trên biển báo?",
+    "reference": "Một mũi tên.",
+    "prediction": "Một mũi tên."
+  },
+  {
+    "image": "00027.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Phải rẽ phải.",
+    "prediction": "Làm đúng hướng dẫn trên biển."
+  },
+  {
+    "image": "00027.png",
+    "question": "Nền của ảnh này có màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00027.png",
+    "question": "Biển báo này có nằm trong đô thị không?",
+    "reference": "Không rõ.",
+    "prediction": "Không rõ."
+  },
+  {
+    "image": "00036.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Cấm rẽ trái và đi thẳng.",
+    "prediction": "Không cho phép đi hai hướng."
+  },
+  {
+    "image": "00036.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo cấm.",
+    "prediction": "Biển báo cấm."
+  },
+  {
+    "image": "00036.png",
+    "question": "Hình dạng của biển báo là gì?",
+    "reference": "Hình tròn.",
+    "prediction": "Hình tròn."
+  },
+  {
+    "image": "00036.png",
+    "question": "Màu sắc chủ đạo của viền và đường gạch chéo là gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00036.png",
+    "question": "Biển báo có sử dụng màu trắng làm nền không?",
+    "reference": "Có.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00036.png",
+    "question": "Có bao nhiêu mũi tên trên biển báo?",
+    "reference": "Hai mũi tên.",
+    "prediction": "Một mũi tên."
+  },
+  {
+    "image": "00036.png",
+    "question": "Người lái xe có được phép đi thẳng không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00036.png",
+    "question": "Biển báo này có nền màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00036.png",
+    "question": "Màu sắc của các mũi tên là gì?",
+    "reference": "Màu đen.",
+    "prediction": "Màu đen."
+  },
+  {
+    "image": "00036.png",
+    "question": "Biển báo này có vị trí gắn cụ thể không?",
+    "reference": "Không rõ.",
+    "prediction": "Không rõ."
+  },
+  {
+    "image": "00051.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Cấm rẽ trái.",
+    "prediction": "Không cho phép đi vòng quanh trái."
+  },
+  {
+    "image": "00051.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo cấm.",
+    "prediction": "Biển báo cấm."
+  },
+  {
+    "image": "00051.png",
+    "question": "Biển báo có hình dạng gì?",
+    "reference": "Hình tròn.",
+    "prediction": "Hình tròn."
+  },
+  {
+    "image": "00051.png",
+    "question": "Màu sắc chủ đạo của viền và gạch chéo là gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00051.png",
+    "question": "Ký hiệu trên biển báo là gì?",
+    "reference": "Mũi tên rẽ trái màu đen.",
+    "prediction": "Ký hiệu cấm."
+  },
+  {
+    "image": "00051.png",
+    "question": "Có bao nhiêu mũi tên trên biển báo?",
+    "reference": "Một mũi tên.",
+    "prediction": "Một mũi tên."
+  },
+  {
+    "image": "00051.png",
+    "question": "Người lái xe có được phép rẽ trái không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00051.png",
+    "question": "Biển báo này có nền màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00051.png",
+    "question": "Nền xung quanh của ảnh này là gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Nền màu trắng."
+  },
+  {
+    "image": "00051.png",
+    "question": "Biển báo này có phải là biển chỉ dẫn không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00056.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Cấm xe thô sơ loại xe kéo tay.",
+    "prediction": "Cấm người đi xe đạp."
+  },
+  {
+    "image": "00056.png",
+    "question": "Đây thuộc nhóm biển báo nào?",
+    "reference": "Biển báo cấm.",
+    "prediction": "Biển báo cấm."
+  },
+  {
+    "image": "00056.png",
+    "question": "Nền của biển báo này có màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00056.png",
+    "question": "Biển báo có hình dạng gì?",
+    "reference": "Hình tròn.",
+    "prediction": "Hình tròn."
+  },
+  {
+    "image": "00056.png",
+    "question": "Có vạch đỏ gạch chéo trên biển báo không?",
+    "reference": "Có.",
+    "prediction": "Có, nhưng không rõ rõ ràng."
+  },
+  {
+    "image": "00056.png",
+    "question": "Trong hình có bao nhiêu người?",
+    "reference": "Một người.",
+    "prediction": "Một người."
+  },
+  {
+    "image": "00056.png",
+    "question": "Người trong biển báo đang làm gì?",
+    "reference": "Đang kéo xe thô sơ.",
+    "prediction": "Đi lại xe."
+  },
+  {
+    "image": "00056.png",
+    "question": "Người tham gia giao thông có được phép đi vào không?",
+    "reference": "Không được phép.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00056.png",
+    "question": "Màu sắc chủ đạo của biển báo là gì?",
+    "reference": "Đỏ, trắng và đen.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00056.png",
+    "question": "Biển báo này có viền màu gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00058.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Cấm xe súc vật kéo.",
+    "prediction": "Cấm xe bò."
+  },
+  {
+    "image": "00058.png",
+    "question": "Đây thuộc loại biển báo nào?",
+    "reference": "Biển báo cấm.",
+    "prediction": "Biển báo cấm."
+  },
+  {
+    "image": "00058.png",
+    "question": "Biển báo có hình dạng gì?",
+    "reference": "Hình tròn.",
+    "prediction": "Hình tròn."
+  },
+  {
+    "image": "00058.png",
+    "question": "Màu sắc chủ đạo của viền và gạch chéo là gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00058.png",
+    "question": "Biểu tượng bên trong biển báo có màu gì?",
+    "reference": "Màu đen.",
+    "prediction": "Màu đen."
+  },
+  {
+    "image": "00058.png",
+    "question": "Nền của biển báo này là màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00058.png",
+    "question": "Đây có phải là biển báo cho phép xe súc vật đi vào không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00058.png",
+    "question": "Có bao nhiêu con vật trong biển báo?",
+    "reference": "Một con bò.",
+    "prediction": "Một con."
+  },
+  {
+    "image": "00058.png",
+    "question": "Người điều khiển xe súc vật cần làm gì khi thấy biển này?",
+    "reference": "Không được đi vào đường có biển này.",
+    "prediction": "Không được phép sử dụng."
+  },
+  {
+    "image": "00058.png",
+    "question": "Có vật thể nào khác ngoài xe kéo và con vật không?",
+    "reference": "Không có.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00060.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Cấm xe đạp đi vào.",
+    "prediction": "Không cho xe máy tải hàng."
+  },
+  {
+    "image": "00060.png",
+    "question": "Đây thuộc nhóm biển báo nào?",
+    "reference": "Biển báo cấm.",
+    "prediction": "Biển báo cấm."
+  },
+  {
+    "image": "00060.png",
+    "question": "Nền của biển báo có màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00060.png",
+    "question": "Biển báo này có hình dạng gì?",
+    "reference": "Hình tròn.",
+    "prediction": "Hình tròn."
+  },
+  {
+    "image": "00060.png",
+    "question": "Trên biển báo có hình phương tiện gì?",
+    "reference": "Hình xe đạp.",
+    "prediction": "Hình xe đạp."
+  },
+  {
+    "image": "00060.png",
+    "question": "Có vật thể xung quanh biển báo không?",
+    "reference": "Không thấy vật thể xung quanh.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00060.png",
+    "question": "Biển báo này có cho phép xe đạp đi vào không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00060.png",
+    "question": "Có bao nhiêu hình xe đạp trên biển báo?",
+    "reference": "Một chiếc xe đạp.",
+    "prediction": "Một chiếc."
+  },
+  {
+    "image": "00060.png",
+    "question": "Người đi xe đạp nên làm gì khi gặp biển này?",
+    "reference": "Không được đi vào đường này.",
+    "prediction": "Không được đi."
+  },
+  {
+    "image": "00060.png",
+    "question": "Biển báo có đường gạch chéo màu gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00063.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Cấm xe máy đi vào.",
+    "prediction": "Cấm người đi xe máy."
+  },
+  {
+    "image": "00063.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo cấm.",
+    "prediction": "Biển báo cấm."
+  },
+  {
+    "image": "00063.png",
+    "question": "Màu sắc chủ đạo của viền biển báo là gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00063.png",
+    "question": "Hình dạng của biển báo này như thế nào?",
+    "reference": "Hình tròn.",
+    "prediction": "Hình tròn."
+  },
+  {
+    "image": "00063.png",
+    "question": "Có hình ảnh phương tiện nào trên biển báo?",
+    "reference": "Hình chiếc xe máy.",
+    "prediction": "Hình ảnh xe máy."
+  },
+  {
+    "image": "00063.png",
+    "question": "Nền của biển báo có màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00063.png",
+    "question": "Biển báo này có cho phép xe máy đi qua không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00063.png",
+    "question": "Có bao nhiêu xe máy được vẽ trên biển báo?",
+    "reference": "Một xe máy.",
+    "prediction": "Một chiếc."
+  },
+  {
+    "image": "00063.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Không lái xe máy vào đường cấm.",
+    "prediction": "Không được lái xe máy."
+  },
+  {
+    "image": "00063.png",
+    "question": "Biển báo này có gắn trên cột đèn không?",
+    "reference": "Không rõ.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00109.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Đường dành cho ô tô và xe máy.",
+    "prediction": "Cảnh báo không cho phép xe máy và xe"
+  },
+  {
+    "image": "00109.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo chỉ dẫn.",
+    "prediction": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00109.png",
+    "question": "Nền của biển báo có màu gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu xanh dương."
+  },
+  {
+    "image": "00109.png",
+    "question": "Hình dạng của biển báo là hình gì?",
+    "reference": "Hình chữ nhật.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00109.png",
+    "question": "Biển báo có chứa hình xe đạp không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00109.png",
+    "question": "Có bao nhiêu phương tiện được hiển thị trên biển?",
+    "reference": "Hai phương tiện.",
+    "prediction": "Một phương tiện."
+  },
+  {
+    "image": "00109.png",
+    "question": "Người lái xe máy có đang đội mũ bảo hiểm không?",
+    "reference": "Có.",
+    "prediction": "Không rõ."
+  },
+  {
+    "image": "00109.png",
+    "question": "Màu sắc của các hình vẽ trên biển là gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00109.png",
+    "question": "Người tham gia giao thông nên làm gì khi thấy biển này?",
+    "reference": "Di chuyển đúng làn đường quy định.",
+    "prediction": "Điều khiển xe máy và xe hơi the"
+  },
+  {
+    "image": "00109.png",
+    "question": "Nền của biển có màu đỏ không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00130.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Cấm xe có chiều dài toàn bộ vượt quá 9 mét.",
+    "prediction": "Cấm xe tải quá 9 mét."
+  },
+  {
+    "image": "00130.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo cấm.",
+    "prediction": "Biển báo cấm."
+  },
+  {
+    "image": "00130.png",
+    "question": "Biển báo này có hình dạng gì?",
+    "reference": "Hình tròn.",
+    "prediction": "Hình tròn."
+  },
+  {
+    "image": "00130.png",
+    "question": "Màu sắc chủ đạo của viền biển báo là gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00130.png",
+    "question": "Có bao nhiêu ký hiệu mũi tên trên biển?",
+    "reference": "Hai mũi tên.",
+    "prediction": "Một ký hiệu mũi tên."
+  },
+  {
+    "image": "00130.png",
+    "question": "Biển báo này có cấm xe máy không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00130.png",
+    "question": "Trên biển ghi con số bao nhiêu?",
+    "reference": "Số 9.",
+    "prediction": "9."
+  },
+  {
+    "image": "00130.png",
+    "question": "Nền của biển báo có màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00130.png",
+    "question": "Người lái xe tải dài trên 9m có được đi qua không?",
+    "reference": "Không được.",
+    "prediction": "Không được."
+  },
+  {
+    "image": "00130.png",
+    "question": "Trong ảnh có xuất hiện cây cối không?",
+    "reference": "Không rõ.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00140.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Hết đoạn đường dành cho xe điện.",
+    "prediction": "Cấm xe máy và xe tải."
+  },
+  {
+    "image": "00140.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo hiệu lệnh.",
+    "prediction": "Biển báo cấm."
+  },
+  {
+    "image": "00140.png",
+    "question": "Màu nền chủ đạo của biển báo là màu gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu xanh dương."
+  },
+  {
+    "image": "00140.png",
+    "question": "Hình dạng của biển báo này là gì?",
+    "reference": "Hình chữ nhật.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00140.png",
+    "question": "Có vạch kẻ chéo màu đỏ trên biển báo không?",
+    "reference": "Có.",
+    "prediction": "Có."
+  },
+  {
+    "image": "00140.png",
+    "question": "Có bao nhiêu hình vẽ xe điện trên biển báo?",
+    "reference": "Hai chiếc.",
+    "prediction": "Một hình."
+  },
+  {
+    "image": "00140.png",
+    "question": "Người tham gia giao thông cần làm gì khi thấy biển?",
+    "reference": "Không được coi là đường riêng cho xe điện.",
+    "prediction": "Không được đi xe máy."
+  },
+  {
+    "image": "00140.png",
+    "question": "Ký hiệu trên biển báo có màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00140.png",
+    "question": "Biển báo có hiển thị hình ảnh người lái xe không?",
+    "reference": "Có.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00140.png",
+    "question": "Có vật thể nào khác ngoài xe điện trên biển không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00141.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Hết đoạn đường dành cho xe điện.",
+    "prediction": "Cấm xe đạp golf."
+  },
+  {
+    "image": "00141.png",
+    "question": "Đây thuộc loại biển báo gì?",
+    "reference": "Biển báo hiệu lệnh.",
+    "prediction": "Biển báo cấm."
+  },
+  {
+    "image": "00141.png",
+    "question": "Màu nền của biển báo là gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu xanh dương."
+  },
+  {
+    "image": "00141.png",
+    "question": "Hình dạng của biển báo này là gì?",
+    "reference": "Hình chữ nhật.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00141.png",
+    "question": "Có vạch đỏ nào trên biển báo không?",
+    "reference": "Có, một vạch đỏ gạch chéo.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00141.png",
+    "question": "Trên biển có mấy người ngồi trên xe?",
+    "reference": "Có hai người.",
+    "prediction": "Một người."
+  },
+  {
+    "image": "00141.png",
+    "question": "Biển báo này có phải biển cấm không?",
+    "reference": "Không, đây là biển báo hiệu lệnh.",
+    "prediction": "Có, biển cấm."
+  },
+  {
+    "image": "00141.png",
+    "question": "Ký hiệu chính trên biển là loại phương tiện gì?",
+    "reference": "Xe điện du lịch.",
+    "prediction": "Máy kéo."
+  },
+  {
+    "image": "00141.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Kết thúc khu vực ưu tiên xe điện.",
+    "prediction": "Không được đi xe máy."
+  },
+  {
+    "image": "00141.png",
+    "question": "Nền của ảnh chụp biển báo này là gì?",
+    "reference": "Không rõ.",
+    "prediction": "Nền màu xanh dương."
+  },
+  {
+    "image": "00144.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Báo hiệu đường bị thu hẹp hai bên.",
+    "prediction": "Cảnh báo đường cong."
+  },
+  {
+    "image": "00144.png",
+    "question": "Đây thuộc loại biển báo nào?",
+    "reference": "Biển báo nguy hiểm.",
+    "prediction": "Biển báo nguy hiểm."
+  },
+  {
+    "image": "00144.png",
+    "question": "Biển báo này có hình dạng gì?",
+    "reference": "Hình tam giác đều.",
+    "prediction": "Hình tam giác."
+  },
+  {
+    "image": "00144.png",
+    "question": "Màu nền của biển báo là màu gì?",
+    "reference": "Màu vàng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00144.png",
+    "question": "Biển báo có mấy mũi tên màu đen?",
+    "reference": "Hai mũi tên.",
+    "prediction": "Một mũi tên màu đen."
+  },
+  {
+    "image": "00144.png",
+    "question": "Biển báo này có viền màu gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00144.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Giảm tốc độ và chú ý quan sát.",
+    "prediction": "Giảm tốc độ và lưu ý cảnh báo"
+  },
+  {
+    "image": "00144.png",
+    "question": "Có vật cản ở giữa biển báo không?",
+    "reference": "Có, một chướng ngại vật nhỏ.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00144.png",
+    "question": "Đây có phải biển báo cấm không?",
+    "reference": "Không phải.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00144.png",
+    "question": "Nền phía sau biển báo là màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00152.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Hết khu đông dân cư.",
+    "prediction": "Cấm xây dựng ở đây."
+  },
+  {
+    "image": "00152.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo chỉ dẫn.",
+    "prediction": "Biển báo cấm."
+  },
+  {
+    "image": "00152.png",
+    "question": "Nền của biển báo có màu gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu xanh dương."
+  },
+  {
+    "image": "00152.png",
+    "question": "Biển báo có hình dạng gì?",
+    "reference": "Hình chữ nhật.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00152.png",
+    "question": "Trên biển báo có vạch kẻ màu gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00152.png",
+    "question": "Biển báo có cấm xe vào không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00152.png",
+    "question": "Có bao nhiêu hình tòa nhà màu trắng?",
+    "reference": "Bốn tòa nhà.",
+    "prediction": "Một hình."
+  },
+  {
+    "image": "00152.png",
+    "question": "Vạch kẻ đỏ trên biển báo nằm theo hướng nào?",
+    "reference": "Từ góc dưới trái lên góc trên phải.",
+    "prediction": "Hướng trái"
+  },
+  {
+    "image": "00152.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Có thể tăng tốc độ theo quy định.",
+    "prediction": "Không được đi qua."
+  },
+  {
+    "image": "00152.png",
+    "question": "Biển báo này được gắn ở đâu?",
+    "reference": "Không rõ.",
+    "prediction": "Cầu Rạch Giá."
+  },
+  {
+    "image": "00155.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Chỉ dẫn hướng đi trên các làn đường.",
+    "prediction": "Có hai hướng đi khác nhau."
+  },
+  {
+    "image": "00155.png",
+    "question": "Biển báo này thuộc nhóm biển báo nào?",
+    "reference": "Biển chỉ dẫn.",
+    "prediction": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00155.png",
+    "question": "Nền của biển báo có màu gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu xanh dương."
+  },
+  {
+    "image": "00155.png",
+    "question": "Hình dạng tổng thể của biển báo này là gì?",
+    "reference": "Hình chữ nhật.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00155.png",
+    "question": "Có mũi tên hướng rẽ trái trên biển không?",
+    "reference": "Có.",
+    "prediction": "Có, nhưng không rõ rõ ràng."
+  },
+  {
+    "image": "00155.png",
+    "question": "Có bao nhiêu mũi tên được vẽ trên biển?",
+    "reference": "Ba mũi tên.",
+    "prediction": "Một mảnh."
+  },
+  {
+    "image": "00155.png",
+    "question": "Biển báo có chứa màu trắng không?",
+    "reference": "Có, các mũi tên và đường kẻ có màu trắng.",
+    "prediction": "Có."
+  },
+  {
+    "image": "00155.png",
+    "question": "Hướng đi của mũi tên bên phải là gì?",
+    "reference": "Rẽ phải.",
+    "prediction": "Hướng đi trái."
+  },
+  {
+    "image": "00155.png",
+    "question": "Người lái xe ở làn giữa nên đi thế nào?",
+    "reference": "Đi thẳng.",
+    "prediction": "Đi theo hướng đi của đường đi trước"
+  },
+  {
+    "image": "00155.png",
+    "question": "Biển này có thông tin về tốc độ không?",
+    "reference": "Không.",
+    "prediction": "Không có thông tin về tốc độ."
+  },
+  {
+    "image": "00167.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Thông báo có khách sạn gần đây.",
+    "prediction": "Có thể chỉ ra nơi có giường."
+  },
+  {
+    "image": "00167.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển chỉ dẫn.",
+    "prediction": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00167.png",
+    "question": "Màu nền của biển báo là gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00167.png",
+    "question": "Biển báo có hình dạng gì?",
+    "reference": "Hình chữ nhật.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00167.png",
+    "question": "Có bao nhiêu cái giường trên biển báo?",
+    "reference": "Một cái.",
+    "prediction": "Một cái."
+  },
+  {
+    "image": "00167.png",
+    "question": "Biển báo có chữ viết không?",
+    "reference": "Có, chữ KHÁCH SẠN.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00167.png",
+    "question": "Ký hiệu trên biển báo là hình gì?",
+    "reference": "Hình chiếc giường.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00167.png",
+    "question": "Biển báo này có cấm xe đi lại không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00167.png",
+    "question": "Màu của chiếc giường trên biển là gì?",
+    "reference": "Màu đen.",
+    "prediction": "Màu đen."
+  },
+  {
+    "image": "00167.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Có thể dừng nghỉ tại khách sạn.",
+    "prediction": "Không được dừng lại."
+  },
+  {
+    "image": "00174.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Chỉ dẫn hướng rẽ vào bãi đỗ xe.",
+    "prediction": "Cảnh báo nguy hiểm."
+  },
+  {
+    "image": "00174.png",
+    "question": "Đây thuộc nhóm biển báo giao thông nào?",
+    "reference": "Biển báo chỉ dẫn.",
+    "prediction": "Biển báo hướng dẫn."
+  },
+  {
+    "image": "00174.png",
+    "question": "Màu nền của biển báo là màu gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00174.png",
+    "question": "Mũi tên trên biển báo có màu gì?",
+    "reference": "Màu đen.",
+    "prediction": "Màu đen."
+  },
+  {
+    "image": "00174.png",
+    "question": "Biển báo có hình dạng gì?",
+    "reference": "Hình vuông.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00174.png",
+    "question": "Biển báo này có cho phép đi thẳng không?",
+    "reference": "Không.",
+    "prediction": "Không rõ."
+  },
+  {
+    "image": "00174.png",
+    "question": "Có bao nhiêu mũi tên xuất hiện trên biển?",
+    "reference": "Một mũi tên.",
+    "prediction": "Một mũi tên."
+  },
+  {
+    "image": "00174.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Rẽ theo hướng mũi tên để đỗ xe.",
+    "prediction": "Làm theo hướng dẫn trên biển."
+  },
+  {
+    "image": "00174.png",
+    "question": "Nền của ảnh có vật thể nào khác không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00174.png",
+    "question": "Hướng rẽ được chỉ định trên biển là bên nào?",
+    "reference": "Bên trái.",
+    "prediction": "Bên phải."
+  },
+  {
+    "image": "00184.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Cảnh báo gia súc sang đường.",
+    "prediction": "Cảnh báo có thể có những con lợ"
+  },
+  {
+    "image": "00184.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo nguy hiểm.",
+    "prediction": "Biển báo nguy hiểm."
+  },
+  {
+    "image": "00184.png",
+    "question": "Biển báo có hình dạng gì?",
+    "reference": "Hình tam giác.",
+    "prediction": "Hình tam giác."
+  },
+  {
+    "image": "00184.png",
+    "question": "Màu nền của biển báo là gì?",
+    "reference": "Màu vàng.",
+    "prediction": "Màu vàng."
+  },
+  {
+    "image": "00184.png",
+    "question": "Màu của đường viền biển báo là gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00184.png",
+    "question": "Có bao nhiêu con vật trên biển báo?",
+    "reference": "Một con bò.",
+    "prediction": "Một con."
+  },
+  {
+    "image": "00184.png",
+    "question": "Biển báo có màu trắng không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00184.png",
+    "question": "Ký hiệu trên biển báo màu gì?",
+    "reference": "Màu đen.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00184.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Giảm tốc độ và chú ý quan sát.",
+    "prediction": "Giảm tốc độ và chú ý."
+  },
+  {
+    "image": "00184.png",
+    "question": "Nền xung quanh biển báo là màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00189.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Báo hiệu đá lở.",
+    "prediction": "Cảnh báo nguy hiểm do núi đá rơi"
+  },
+  {
+    "image": "00189.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo nguy hiểm.",
+    "prediction": "Biển báo nguy hiểm."
+  },
+  {
+    "image": "00189.png",
+    "question": "Biển báo có hình dạng gì?",
+    "reference": "Hình tam giác đều.",
+    "prediction": "Hình tam giác."
+  },
+  {
+    "image": "00189.png",
+    "question": "Màu sắc chủ đạo của nền biển là gì?",
+    "reference": "Màu vàng.",
+    "prediction": "Màu vàng."
+  },
+  {
+    "image": "00189.png",
+    "question": "Viền của biển báo có màu gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00189.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Giảm tốc độ và chú ý quan sát.",
+    "prediction": "Hãy dừng lại và kiểm tra đường đi"
+  },
+  {
+    "image": "00189.png",
+    "question": "Biển báo này có hình tròn không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00189.png",
+    "question": "Có bao nhiêu hình đá nhỏ trong biển báo?",
+    "reference": "Nhiều hơn 10 viên.",
+    "prediction": "Một hình."
+  },
+  {
+    "image": "00189.png",
+    "question": "Nền của ảnh này có màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00189.png",
+    "question": "Biển báo này có phải cảnh báo nguy hiểm không?",
+    "reference": "Có.",
+    "prediction": "Có."
+  },
+  {
+    "image": "00190.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Yêu cầu người lái xe đi chậm lại.",
+    "prediction": "Cảnh báo nguy hiểm."
+  },
+  {
+    "image": "00190.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo nguy hiểm.",
+    "prediction": "Biển báo nguy hiểm."
+  },
+  {
+    "image": "00190.png",
+    "question": "Biển báo có hình dạng gì?",
+    "reference": "Hình tam giác đều.",
+    "prediction": "Hình tam giác."
+  },
+  {
+    "image": "00190.png",
+    "question": "Màu nền của biển báo là màu gì?",
+    "reference": "Màu vàng.",
+    "prediction": "Màu vàng."
+  },
+  {
+    "image": "00190.png",
+    "question": "Viền của biển báo có màu gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00190.png",
+    "question": "Biển báo có vật thể nào khác xung quanh không?",
+    "reference": "Không.",
+    "prediction": "Không rõ."
+  },
+  {
+    "image": "00190.png",
+    "question": "Biển báo này có hình tròn không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00190.png",
+    "question": "Có bao nhiêu từ được viết trên biển báo?",
+    "reference": "Hai từ.",
+    "prediction": "Một từ."
+  },
+  {
+    "image": "00190.png",
+    "question": "Người tham gia giao thông nên làm gì khi thấy biển này?",
+    "reference": "Giảm tốc độ xe.",
+    "prediction": "Hãy dừng lại và kiểm tra xe."
+  },
+  {
+    "image": "00190.png",
+    "question": "Màu sắc của chữ viết trên biển là gì?",
+    "reference": "Màu đen.",
+    "prediction": "Màu đen."
+  },
+  {
+    "image": "00229.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Báo hiệu đường bị thu hẹp bên phải.",
+    "prediction": "Cảnh báo đường cong."
+  },
+  {
+    "image": "00229.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo nguy hiểm.",
+    "prediction": "Biển báo nguy hiểm."
+  },
+  {
+    "image": "00229.png",
+    "question": "Nền của biển báo có màu gì?",
+    "reference": "Màu vàng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00229.png",
+    "question": "Biển báo này có hình dạng gì?",
+    "reference": "Hình tam giác đều.",
+    "prediction": "Hình tam giác."
+  },
+  {
+    "image": "00229.png",
+    "question": "Trên biển báo có bao nhiêu ký hiệu?",
+    "reference": "Hai ký hiệu.",
+    "prediction": "Một ký hiệu."
+  },
+  {
+    "image": "00229.png",
+    "question": "Viền của biển báo có màu gì?",
+    "reference": "Màu đỏ.",
+    "prediction": "Màu đỏ."
+  },
+  {
+    "image": "00229.png",
+    "question": "Biển báo này có cảnh báo đường trơn không?",
+    "reference": "Không.",
+    "prediction": "Không."
+  },
+  {
+    "image": "00229.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Giảm tốc độ và chú ý quan sát.",
+    "prediction": "Giảm tốc độ và chú ý đường đi"
+  },
+  {
+    "image": "00229.png",
+    "question": "Biển báo này được gắn ở đâu?",
+    "reference": "Không rõ.",
+    "prediction": "Cầu."
+  },
+  {
+    "image": "00229.png",
+    "question": "Ký hiệu trên biển là hình gì?",
+    "reference": "Hình mũi tên và một khối hình thang.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00258.png",
+    "question": "Biển báo này có ý nghĩa gì?",
+    "reference": "Báo hiệu đoạn đường xuống dốc liên tục.",
+    "prediction": "Cảnh báo về sự liên tục của dòng chảy"
+  },
+  {
+    "image": "00258.png",
+    "question": "Đây là loại biển báo gì?",
+    "reference": "Biển báo hiệu lệnh hoặc chỉ dẫn.",
+    "prediction": "Biển báo chỉ dẫn."
+  },
+  {
+    "image": "00258.png",
+    "question": "Biển báo có màu nền chủ đạo là gì?",
+    "reference": "Màu xanh dương.",
+    "prediction": "Màu xanh dương."
+  },
+  {
+    "image": "00258.png",
+    "question": "Biển báo này có hình dạng gì?",
+    "reference": "Hình chữ nhật nằm ngang.",
+    "prediction": "Hình chữ nhật."
+  },
+  {
+    "image": "00258.png",
+    "question": "Có bao nhiêu mũi tên xuất hiện trên biển báo?",
+    "reference": "Hai mũi tên.",
+    "prediction": "Một mũi tên."
+  },
+  {
+    "image": "00258.png",
+    "question": "Người lái xe nên làm gì khi thấy biển này?",
+    "reference": "Giảm tốc độ, kiểm soát phanh xe.",
+    "prediction": "Hãy dừng lại và kiểm tra đường đi"
+  },
+  {
+    "image": "00258.png",
+    "question": "Chữ viết trên biển báo có màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu trắng."
+  },
+  {
+    "image": "00258.png",
+    "question": "Biển báo có phải hình tròn không?",
+    "reference": "Không, biển hình chữ nhật.",
+    "prediction": "Không, hình chữ nhật."
+  },
+  {
+    "image": "00258.png",
+    "question": "Có bao nhiêu dòng chữ trên biển báo?",
+    "reference": "Hai dòng chữ.",
+    "prediction": "Một dòng."
+  },
+  {
+    "image": "00258.png",
+    "question": "Nền của phần chứa ký hiệu có màu gì?",
+    "reference": "Màu trắng.",
+    "prediction": "Màu xanh dương."
+  }
+]

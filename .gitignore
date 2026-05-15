@@ -1,0 +1,24 @@
+# Secrets and local editor state
+.env
+.vscode/
+__pycache__/
+*.pyc
+
+# Runtime/cache folders
+hf_cache/
+.cache/
+.ipynb_checkpoints/
+
+# Large binary checkpoints that should be shared via Drive/Hugging Face
+checkpoints/*.pt
+checkpoints/*.zip
+checkpoints/latest_*.pt
+checkpoints/drive-download-*.zip
+
+# Older experimental B2 runs kept locally only
+checkpoints/b2_qwen_lora/
+checkpoints/b2_qwen_runs/
+
+# OS files
+Thumbs.db
+.DS_Store

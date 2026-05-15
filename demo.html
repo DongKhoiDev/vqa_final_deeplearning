@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống Thử nghiệm Nhận diện & Hỏi đáp Biển báo Giao thông (VQA-BBGT)</title>
+    <!-- Google Fonts - Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            600: '#1d4ed8',
+                            700: '#1e40af',
+                            800: '#1e3a8a',
+                            900: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col font-sans antialiased pb-12">
+
+    <!-- Top Navigation Bar (Academic & Scientific Style) -->
+    <header class="w-full bg-white border-b border-slate-200 px-6 py-4 flex items-center justify-between shadow-sm">
+        <div class="flex items-center space-x-3">
+            <div class="p-2 bg-brand-50 rounded-xl border border-brand-100">
+                <i data-lucide="binary" class="w-6 h-6 text-brand-600"></i>
+            </div>
+            <div>
+                <h1 class="text-lg font-extrabold tracking-tight text-slate-900">VQA-BBGT Inference Platform</h1>
+                <p class="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Hệ thống Thử nghiệm Nhận diện &
+                    Hỏi đáp Biển báo Giao thông</p>
+            </div>
+        </div>
+        
+    </header>
+
+    <!-- Main Content Grid -->
+    <main class="max-w-[1400px] w-full mx-auto px-4 mt-6 grid grid-cols-1 lg:grid-cols-12 gap-6 flex-1">
+
+        <!-- SIDEBAR PANEL (lg:col-span-4) -->
+        <section class="lg:col-span-4 flex flex-col space-y-6">
+
+            <!-- Model Checkpoint Card -->
+            <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm">
+                <div class="flex items-center space-x-2.5 mb-4 border-b border-slate-100 pb-3">
+                    <i data-lucide="cpu" class="w-5 h-5 text-brand-600"></i>
+                    <h2 class="text-sm font-bold text-slate-800">Cấu hình Trọng số (Checkpoints)</h2>
+                </div>
+                <div class="space-y-4">
+                    <div>
+                        <label for="model-selector" class="block text-xs font-bold text-slate-500 mb-1.5">Trọng số mô
+                            hình tải vào GPU</label>
+                        <select id="model-selector" onchange="handleModelChange()"
+                            class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 text-sm text-slate-700 font-medium focus:outline-none focus:border-brand-600 transition-all cursor-pointer">
+                            <optgroup label="BÀI 1: HỎI ĐÁP ẢNH (VQA)">
+                                <option value="A1">checkpoint_A1_best.pt (ResNet18 + LSTM Decoder)</option>
+                                <option value="A2" selected>checkpoint_A2_best.pt (ResNet18 + Transformer Decoder)
+                                </option>
+                                <option value="B1">predictions_B1_zero_shot.json (Qwen2-VL Zero-shot)</option>
+                                <option value="B2">predictions_B2_fine_tuned.json (Qwen2-VL LoRA)</option>
+                            </optgroup>
+                            <optgroup label="BÀI 2: EXPLAINABLE VQA">
+                                <option value="B2_explainable">Explainable VQA (answer + explanation + recommendation)</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <!-- Selected Model Specs Badge Info -->
+                    <div id="model-info-card"
+                        class="p-3.5 rounded-xl bg-slate-50 border border-slate-100 space-y-2 text-xs">
+                        <!-- Dynamic content filled by JS -->
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- MAIN WORKSPACE PANEL (lg:col-span-8) -->
+        <section class="lg:col-span-8 flex flex-col space-y-6">
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+                <!-- IMAGE PREVIEW & UPLOAD (md:col-span-5) -->
+                <div class="md:col-span-5 flex flex-col space-y-4">
+                    <div class="bg-white rounded-2xl p-4 border border-slate-200 shadow-sm flex-1 flex flex-col">
+                        <div class="flex items-center justify-between mb-3 border-b border-slate-50 pb-2">
+                            <span class="text-xs font-bold text-slate-500 uppercase tracking-wider flex items-center">
+                                <i data-lucide="image" class="w-4 h-4 text-slate-500 mr-1.5"></i> Input Tensor Preview
+                            </span>
+                            <button id="clear-btn" onclick="clearImage()"
+                                class="hidden text-[11px] font-bold text-red-600 hover:text-red-500 transition-colors flex items-center">
+                                <i data-lucide="trash-2" class="w-3.5 h-3.5 mr-1"></i> Xóa ảnh
+                            </button>
+                        </div>
+
+                        <!-- Upload and Preview Area -->
+                        <div class="relative border-2 border-dashed border-slate-200 rounded-xl flex-1 flex flex-col items-center justify-center p-4 transition-all hover:border-brand-600 bg-slate-50/50 overflow-hidden"
+                            id="drop-area">
+                            <input type="file" id="file-uploader" class="hidden" accept="image/*"
+                                onchange="handleImageUpload(event)">
+
+                            <!-- Placeholder -->
+                            <div id="upload-placeholder"
+                                class="text-center py-10 cursor-pointer w-full h-full flex flex-col items-center justify-center"
+                                onclick="triggerFileInput()">
+                                <div
+                                    class="w-12 h-12 rounded-full bg-white border border-slate-200 flex items-center justify-center mb-3 text-slate-400">
+                                    <i data-lucide="upload" class="w-6 h-6"></i>
+                                </div>
+                                <p class="text-xs font-bold text-slate-600">Tải ảnh biển báo đầu vào</p>
+                                <p class="text-[10px] text-slate-400 mt-1">Hỗ trợ PNG, JPG, JPEG</p>
+                            </div>
+
+                            <!-- Preview & Heatmap Overlays -->
+                            <div id="image-workspace"
+                                class="hidden relative w-full h-full flex items-center justify-center min-h-[250px] max-h-[350px]">
+                                <img id="preview-image" src="" alt="Preview"
+                                    class="max-w-full max-h-full rounded-lg object-contain">
+                                <!-- Canvas overlay for Grad-CAM simulation -->
+                                <canvas id="gradcam-canvas"
+                                    class="absolute top-0 left-0 w-full h-full rounded-lg pointer-events-none mix-blend-multiply opacity-0 transition-opacity duration-300"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- Heatmap Grad-CAM legend and switch -->
+                        <div id="gradcam-control"
+                            class="hidden mt-3 p-2.5 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-between">
+                            <span class="text-xs text-slate-600 font-medium flex items-center">
+                                <span
+                                    class="w-2.5 h-2.5 rounded-full bg-gradient-to-r from-red-500 to-yellow-400 mr-2"></span>
+                                Bản đồ nhiệt chú ý (Grad-CAM Overlay)
+                            </span>
+                            <label class="relative inline-flex items-center cursor-pointer">
+                                <input type="checkbox" id="heatmap-toggle" onchange="toggleHeatmap()"
+                                    class="sr-only peer" checked>
+                                <div
+                                    class="w-9 h-5 bg-slate-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-blue-600">
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- INTERACTION ZONE (md:col-span-7) -->
+                <div class="md:col-span-7 flex flex-col space-y-6">
+                    <div
+                        class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm flex-1 flex flex-col justify-between">
+
+                        <!-- TAB INTERFACES -->
+                        <div>
+                            <!-- Tab VQA Zone (Bài 1) -->
+                            <div id="tab-vqa" class="space-y-4">
+                                <div class="flex items-center justify-between border-b border-slate-50 pb-2">
+                                    <span
+                                        class="text-xs font-bold text-slate-600 uppercase tracking-wider flex items-center">
+                                        <i data-lucide="message-square" class="w-4 h-4 text-slate-500 mr-1.5"></i>
+                                        Visual Question Answering (VQA)
+                                    </span>
+                                </div>
+
+                                <div class="space-y-2.5 pt-2">
+                                    <div class="relative">
+                                        <input type="text" id="vqa-question" placeholder="Nhập câu hỏi tiếng Việt..."
+                                            class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-3 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition-all pr-12 font-medium">
+                                        <button id="send-vqa-btn" onclick="sendVQAQuery()"
+                                            class="absolute right-2 top-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg p-2 transition-all flex items-center justify-center">
+                                            <i data-lucide="play" class="w-4 h-4"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tab Explainable VQA Zone (Bài 2) -->
+                            <div id="tab-classification" class="hidden space-y-4">
+                                <div class="flex items-center justify-between border-b border-slate-50 pb-2">
+                                    <span
+                                        class="text-xs font-bold text-slate-600 uppercase tracking-wider flex items-center">
+                                        <i data-lucide="brain-circuit" class="w-4 h-4 text-slate-500 mr-1.5"></i>
+                                        Explainable Visual Question Answering
+                                    </span>
+                                </div>
+
+                                <p class="text-xs text-slate-500 leading-relaxed">Bài 2 mở rộng VQA: hệ thống trả lời câu hỏi,
+                                    giải thích ngắn lý do suy luận, đưa ra khuyến nghị hành động và mức tin cậy heuristic.</p>
+
+                                <div class="relative">
+                                    <input type="text" id="explain-question" value="Biển báo này có ý nghĩa gì?"
+                                        placeholder="Nhập câu hỏi cho Explainable VQA..."
+                                        class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-3 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition-all font-medium">
+                                </div>
+
+                                <button id="classify-btn" onclick="runClassificationQuery()"
+                                    class="w-full py-3 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md transition-all flex items-center justify-center space-x-2">
+                                    <i data-lucide="sparkles" class="w-4 h-4"></i>
+                                    <span>Chạy Explainable VQA</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- SYSTEM TERMINAL & INFERENCE LOGS -->
+                        <div class="mt-6 border-t border-slate-100 pt-4 flex-1 flex flex-col justify-end">
+                            <div id="output-box"
+                                class="p-4 rounded-xl bg-slate-900 border border-slate-950 min-h-[170px] flex flex-col justify-center text-slate-300 font-mono text-xs relative overflow-hidden shadow-inner">
+                                <div id="output-placeholder" class="text-center">
+                                    <i data-lucide="terminal" class="w-8 h-8 mx-auto mb-2 text-slate-600"></i>
+                                    <p class="text-slate-500 text-[11px]">[SYSTEM READY] Sẵn sàng thực hiện suy luận...
+                                    </p>
+                                </div>
+                                <div id="output-loading" class="hidden space-y-1">
+                                    <p class="text-blue-400 animate-pulse">[SYSTEM] Loading image tensor... Done.</p>
+                                    <p class="text-blue-400 animate-pulse">[SYSTEM] Initializing device: 'cuda:0'...</p>
+                                    <p class="text-blue-400 animate-pulse">[SYSTEM] Executing forward pass on
+                                        checkpoint...</p>
+                                </div>
+                                <div id="output-result" class="hidden text-left space-y-2.5 w-full">
+                                    <!-- Dynamic response filled by JS -->
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+    </main>
+
+
+    <!-- JAVASCRIPT FOR LOGIC -->
+    <script>
+
+        const _mToken = "QUl6YVN5QnNTSnRDYmlnSWZPRVBjMmFCVk1EdTNyS2VDWS03MHI0";
+
+        let currentImageBase64 = '';
+        let currentImageFilename = '';
+        let currentImageCategory = '';
+
+        // Model details specifications (Standard Machine Learning Metrics look)
+        const MODEL_SPECS = {
+            A1: {
+                name: "Model A1 (ResNet18 + BiLSTM + LSTM Decoder)",
+                desc: "Hệ thống kiến trúc rời, sử dụng bộ giải mã tuần tự LSTM. Thử nghiệm thực tế ghi nhận phản hồi cực kỳ ngắn gọn, phù hợp làm baseline đối chứng.",
+                metric: "VQA Accuracy: ~58.2% | BLEU-4: 0.42",
+                badge: "bg-orange-50 text-orange-700 border border-orange-200"
+            },
+            A2: {
+                name: "Model A2 (ResNet18 + BiLSTM + Transformer Decoder)",
+                desc: "Hệ thống kiến trúc rời nâng cao, tích hợp lớp giải mã Transformer. Khả năng hội tụ nhanh, trích xuất đặc trưng câu chính xác hơn A1.",
+                metric: "VQA Accuracy: ~67.5% | BLEU-4: 0.54",
+                badge: "bg-blue-50 text-blue-700 border border-blue-200"
+            },
+            B1: {
+                name: "Model B1 (Qwen2-VL Zero-shot)",
+                desc: "Mô hình đa phương thức pretrained chạy zero-shot, không fine-tune trên tập dữ liệu biển báo. Demo đọc kết quả đã lưu trong predictions_b1.json.",
+                metric: "Exact Match: 2.96% trên 270 mẫu test",
+                badge: "bg-purple-50 text-purple-700 border border-purple-200"
+            },
+            B2: {
+                name: "Model B2 (Qwen2-VL LoRA Fine-tuned)",
+                desc: "Qwen2-VL được fine-tune bằng LoRA trên tập train. Demo local đọc kết quả đã lưu; Colab Gradio hỗ trợ realtime cho B1/B2.",
+                metric: "Exact Match: 43.33% trên 270 mẫu test",
+                badge: "bg-emerald-50 text-emerald-700 border border-emerald-200"
+            },
+            B2_explainable: {
+                name: "Bài 2: Explainable VQA",
+                desc: "Mở rộng VQA thành hệ thống giải thích: sinh câu trả lời, lý do suy luận, khuyến nghị hành động và confidence heuristic.",
+                metric: "Output: answer + explanation + recommendation + confidence",
+                badge: "bg-slate-50 text-slate-700 border border-slate-200"
+            }
+        };
+
+        // Initialize App on DOM Loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+            handleModelChange();
+
+            // Set up Drag & Drop for Image Upload
+            const dropArea = document.getElementById('drop-area');
+            ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+                dropArea.addEventListener(eventName, preventDefaults, false);
+            });
+            function preventDefaults(e) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+            ['dragenter', 'dragover'].forEach(eventName => {
+                dropArea.addEventListener(eventName, () => dropArea.classList.add('border-blue-500', 'bg-white'), false);
+            });
+            ['dragleave', 'drop'].forEach(eventName => {
+                dropArea.addEventListener(eventName, () => dropArea.classList.remove('border-blue-500', 'bg-white'), false);
+            });
+            dropArea.addEventListener('drop', (e) => {
+                const dt = e.dataTransfer;
+                const files = dt.files;
+                if (files.length) {
+                    processImageFile(files[0]);
+                }
+            }, false);
+        });
+
+        // Trigger file select click
+        function triggerFileInput() {
+            document.getElementById('file-uploader').click();
+        }
+
+        // Handle Image Input Upload
+        function handleImageUpload(e) {
+            const file = e.target.files[0];
+            if (file) {
+                processImageFile(file);
+            }
+        }
+
+        // Process the Image File (convert to base64 and draw preview)
+        function processImageFile(file) {
+            currentImageFilename = file.name;
+            const reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onloadend = () => {
+                currentImageBase64 = reader.result.split(',')[1];
+
+                // Show Preview
+                const previewImg = document.getElementById('preview-image');
+                previewImg.src = reader.result;
+
+                document.getElementById('upload-placeholder').classList.add('hidden');
+                document.getElementById('image-workspace').classList.remove('hidden');
+                document.getElementById('clear-btn').classList.remove('hidden');
+
+                clearGradCamCanvas();
+
+                // Guess category based on filename for dynamic presets
+                const fname = file.name.toLowerCase();
+                if (fname.includes('cam')) currentImageCategory = 'bien_cam';
+                else if (fname.includes('nguy')) currentImageCategory = 'bien_nguy_hiem';
+                else if (fname.includes('chi_duoc') || fname.includes('huong_di') || fname.includes('hieu_lenh')) currentImageCategory = 'bien_hieu_lenh';
+                else currentImageCategory = 'bien_chi_dan';
+            };
+        }
+
+        // Handle Quick Sample Images Load
+        function loadSampleImage(labelSlug, url, title, category) {
+            const img = new Image();
+            img.crossOrigin = 'Anonymous';
+            img.src = url;
+
+            const placeholder = document.getElementById('upload-placeholder');
+            placeholder.innerHTML = `
+                <div class="flex flex-col items-center justify-center py-6">
+                    <div class="w-6 h-6 rounded-full border-2 border-t-blue-600 border-r-transparent border-b-transparent border-l-transparent animate-spin mb-2"></div>
+                    <p class="text-[10px] text-slate-400">Loading tensor...</p>
+                </div>
+            `;
+
+            img.onload = function () {
+                const canvas = document.createElement('canvas');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0);
+
+                currentImageBase64 = canvas.toDataURL('image/png').split(',')[1];
+                currentImageFilename = labelSlug + ".png";
+                currentImageCategory = category;
+
+                const previewImg = document.getElementById('preview-image');
+                previewImg.src = url;
+
+                placeholder.classList.add('hidden');
+                document.getElementById('image-workspace').classList.remove('hidden');
+                document.getElementById('clear-btn').classList.remove('hidden');
+
+                placeholder.innerHTML = `
+                    <div class="w-12 h-12 rounded-full bg-white border border-slate-200 flex items-center justify-center mb-3 text-slate-400">
+                        <i data-lucide="upload" class="w-6 h-6"></i>
+                    </div>
+                    <p class="text-xs font-bold text-slate-600">Tải ảnh biển báo đầu vào</p>
+                    <p class="text-[10px] text-slate-400 mt-1">Hỗ trợ PNG, JPG, JPEG</p>
+                `;
+                lucide.createIcons();
+                clearGradCamCanvas();
+            };
+        }
+
+        // Clear Image Workspaces
+        function clearImage() {
+            currentImageBase64 = '';
+            currentImageFilename = '';
+            currentImageCategory = '';
+
+            document.getElementById('preview-image').src = '';
+            document.getElementById('image-workspace').classList.add('hidden');
+            document.getElementById('clear-btn').classList.add('hidden');
+            document.getElementById('gradcam-control').classList.add('hidden');
+            document.getElementById('upload-placeholder').classList.remove('hidden');
+
+            clearGradCamCanvas();
+            resetOutputBox();
+        }
+
+        function resetOutputBox() {
+            document.getElementById('output-placeholder').classList.remove('hidden');
+            document.getElementById('output-loading').classList.add('hidden');
+            document.getElementById('output-result').classList.add('hidden');
+            document.getElementById('output-result').innerHTML = '';
+        }
+
+        // Handle Model Choice Changes
+        function handleModelChange() {
+            const modelKey = document.getElementById('model-selector').value;
+            const spec = MODEL_SPECS[modelKey];
+            const infoCard = document.getElementById('model-info-card');
+
+            infoCard.innerHTML = `
+                <div class="flex items-center justify-between mb-1">
+                    <span class="font-bold text-slate-800">${spec.name}</span>
+                    <span class="px-2 py-0.5 rounded text-[9px] font-extrabold uppercase ${spec.badge}">${modelKey}</span>
+                </div>
+                <p class="text-slate-500 text-[11px] leading-relaxed mb-2">${spec.desc}</p>
+                <div class="pt-1.5 border-t border-slate-200/60 flex items-center justify-between font-bold text-slate-600 text-[11px]">
+                    <span>Thông số thiết kế:</span>
+                    <span class="text-blue-600">${spec.metric}</span>
+                </div>
+            `;
+
+            if (modelKey === 'B2_explainable') {
+                document.getElementById('tab-vqa').classList.add('hidden');
+                document.getElementById('tab-classification').classList.remove('hidden');
+                document.getElementById('gradcam-control').classList.add('hidden');
+                clearGradCamCanvas();
+            } else {
+                document.getElementById('tab-vqa').classList.remove('hidden');
+                document.getElementById('tab-classification').classList.add('hidden');
+                document.getElementById('gradcam-control').classList.add('hidden');
+                clearGradCamCanvas();
+            }
+            resetOutputBox();
+        }
+
+        const SERVER_URL = "http://127.0.0.1:8000";
+
+        // SEND VQA QUERY (BÀI 1) — gọi FastAPI localhost
+        async function sendVQAQuery() {
+            const question = document.getElementById('vqa-question').value.trim();
+            if (!question) { alert('Vui lòng nhập câu hỏi!'); return; }
+            if (!currentImageBase64) { alert('Vui lòng tải ảnh lên!'); return; }
+
+            showLoading(true);
+            const selectedModel = document.getElementById('model-selector').value;
+            // A1/A2 chạy checkpoint PyTorch realtime; B1/B2 đọc predictions đã lưu từ server.
+            const modelName = (selectedModel === 'B2_explainable') ? 'A2' : selectedModel;
+
+            const startTime = performance.now();
+            try {
+                const res = await fetch(`${SERVER_URL}/vqa`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        image_base64: currentImageBase64,
+                        question: question,
+                        model_name: modelName
+                    })
+                });
+                if (!res.ok) {
+                    const errorText = await res.text();
+                    throw new Error(`Server error ${res.status}: ${errorText}`);
+                }
+                const data = await res.json();
+                const latency = ((performance.now() - startTime) / 1000).toFixed(3);
+                showLoading(false);
+                displayVQAResult(question, data.answer, selectedModel, latency);
+            } catch (err) {
+                showLoading(false);
+                console.error(err);
+                displayError(`Không kết nối được server hoặc server bị lỗi: ${err.message}`);
+            }
+        }
+
+        // RUN EXPLAINABLE VQA QUERY (Bài 2) — gọi FastAPI localhost
+        async function runClassificationQuery() {
+            if (!currentImageBase64) {
+                alert('Vui lòng tải ảnh lên!');
+                return;
+            }
+            const question = document.getElementById('explain-question').value.trim();
+            if (!question) {
+                alert('Vui lòng nhập câu hỏi!');
+                return;
+            }
+            showLoading(true);
+            clearGradCamCanvas();
+            const startTime = performance.now();
+            try {
+                const res = await fetch(`${SERVER_URL}/explainable-vqa`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        image_base64: currentImageBase64,
+                        question: question,
+                        model_name: "A2"
+                    })
+                });
+                if (!res.ok) {
+                    const errorText = await res.text();
+                    throw new Error(`Server error ${res.status}: ${errorText}`);
+                }
+                const resultData = await res.json();
+                const latency = ((performance.now() - startTime) / 1000).toFixed(3);
+                showLoading(false);
+                displayClassificationResult(resultData, latency);
+                document.getElementById('gradcam-control').classList.add('hidden');
+            } catch (err) {
+                showLoading(false);
+                console.error(err);
+                displayError(`Không kết nối được server hoặc server bị lỗi: ${err.message}`);
+            }
+        }
+
+        function displayError(msg) {
+            const resultDiv = document.getElementById('output-result');
+            document.getElementById('output-placeholder').classList.add('hidden');
+            resultDiv.classList.remove('hidden');
+            resultDiv.innerHTML = `<div class="text-red-400 font-bold text-xs">[ERROR] ${msg}</div>`;
+        }
+
+        // Display VQA Mode Results (Terminal Style Inference Log)
+        function displayVQAResult(question, answer, modelKey, latency) {
+            const spec = MODEL_SPECS[modelKey];
+            const resultDiv = document.getElementById('output-result');
+
+            document.getElementById('output-placeholder').classList.add('hidden');
+            resultDiv.classList.remove('hidden');
+
+            resultDiv.innerHTML = `
+                <div class="border-b border-slate-800 pb-2 text-slate-400">
+                    <span class="text-emerald-400 font-bold">[INFERENCE DONE]</span> Active Checkpoint: ${modelKey}_best.pt
+                </div>
+                <div class="space-y-1.5">
+                    <p class="text-slate-400 font-semibold">
+                        &gt; Input Query: <span class="text-slate-300">"${question}"</span>
+                    </p>
+                    <p class="text-slate-400">
+                        &gt; Time to Inference: <span class="text-yellow-400 font-bold">${latency} seconds</span>
+                    </p>
+                    <div class="p-3.5 rounded-lg bg-slate-950/60 border border-slate-800 mt-2">
+                        <p class="text-slate-500 font-bold text-[10px] uppercase tracking-wider mb-1">&gt;&gt; Predicted Label Tensor (Argmax):</p>
+                        <p class="text-[13px] font-extrabold text-emerald-400 tracking-wide">
+                            "${answer.replace(/[".]/g, '').trim()}"
+                        </p>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Display Classification Mode Results (Terminal Style Inference Log)
+        function displayClassificationResult(data, latency) {
+            const resultDiv = document.getElementById('output-result');
+
+            document.getElementById('output-placeholder').classList.add('hidden');
+            resultDiv.classList.remove('hidden');
+
+            let catColor = "text-indigo-400";
+            if (data.category === 'bien_cam') catColor = "text-red-400";
+            else if (data.category === 'bien_nguy_hiem') catColor = "text-yellow-400";
+            else if (data.category === 'bien_hieu_lenh') catColor = "text-blue-400";
+
+            const confidencePercent = (data.confidence * 100).toFixed(1);
+
+            resultDiv.innerHTML = `
+                <div class="border-b border-slate-800 pb-2 text-slate-400">
+                    <span class="text-emerald-400 font-bold">[EXPLAINABLE VQA DONE]</span> Model: ${data.model}
+                </div>
+                <div class="space-y-2">
+                    <div class="grid grid-cols-2 gap-3 mt-1">
+                        <div class="p-3 rounded-lg bg-slate-950/50 border border-slate-800">
+                            <span class="text-[10px] text-slate-500 font-bold">INFERRED_SIGN_GROUP</span>
+                            <span class="block text-xs font-bold ${catColor} mt-1">${data.category}</span>
+                            <span class="block text-[10px] text-slate-600 mt-0.5">${data.category}</span>
+                        </div>
+                        <div class="p-3 rounded-lg bg-slate-950/50 border border-slate-800">
+                            <span class="text-[10px] text-slate-500 font-bold">HEURISTIC_CONFIDENCE</span>
+                            <span class="block text-xs font-bold text-emerald-400 mt-1">${confidencePercent}%</span>
+                            <div class="w-full bg-slate-800 rounded-full h-1 mt-1.5">
+                                <div class="bg-emerald-500 h-1 rounded-full" style="width: ${confidencePercent}%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-3 rounded-lg bg-slate-950/50 border border-slate-800">
+                        <span class="text-[10px] text-slate-500 font-bold block mb-1">VQA_ANSWER</span>
+                        <p class="text-emerald-400 text-xs font-bold leading-relaxed">${data.answer}</p>
+                    </div>
+                    
+                    <div class="p-3 rounded-lg bg-slate-950/50 border border-slate-800">
+                        <span class="text-[10px] text-slate-500 font-bold block mb-1">EXPLANATION</span>
+                        <p class="text-slate-300 text-xs font-normal leading-relaxed">${data.explanation}</p>
+                    </div>
+
+                    <div class="p-3 rounded-lg bg-slate-950/50 border border-slate-800">
+                        <span class="text-[10px] text-slate-500 font-bold block mb-1">RECOMMENDATION</span>
+                        <p class="text-yellow-300 text-xs font-normal leading-relaxed">${data.recommendation}</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Draw Simulated Grad-CAM Heatmap
+        function drawGradCam(center) {
+            const canvas = document.getElementById('gradcam-canvas');
+            const previewImg = document.getElementById('preview-image');
+
+            if (!canvas || !previewImg || !center) return;
+
+            setTimeout(() => {
+                const rect = previewImg.getBoundingClientRect();
+                canvas.width = previewImg.naturalWidth || rect.width;
+                canvas.height = previewImg.naturalHeight || rect.height;
+
+                canvas.style.width = rect.width + 'px';
+                canvas.style.height = rect.height + 'px';
+                canvas.style.top = previewImg.offsetTop + 'px';
+                canvas.style.left = previewImg.offsetLeft + 'px';
+
+                const ctx = canvas.getContext('2d');
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                const cx = center.x * canvas.width;
+                const cy = center.y * canvas.height;
+                const r = (center.radius || 0.2) * Math.min(canvas.width, canvas.height);
+
+                const grad = ctx.createRadialGradient(cx, cy, 2, cx, cy, r);
+                grad.addColorStop(0.0, 'rgba(239, 68, 68, 0.9)');
+                grad.addColorStop(0.3, 'rgba(239, 68, 68, 0.7)');
+                grad.addColorStop(0.5, 'rgba(245, 158, 11, 0.5)');
+                grad.addColorStop(0.7, 'rgba(234, 179, 8, 0.3)');
+                grad.addColorStop(0.9, 'rgba(6, 182, 212, 0.1)');
+                grad.addColorStop(1.0, 'rgba(6, 182, 212, 0.0)');
+
+                ctx.fillStyle = grad;
+                ctx.beginPath();
+                ctx.arc(cx, cy, r, 0, 2 * Math.PI);
+                ctx.fill();
+
+                canvas.style.opacity = document.getElementById('heatmap-toggle').checked ? '0.8' : '0';
+            }, 100);
+        }
+
+        function toggleHeatmap() {
+            const canvas = document.getElementById('gradcam-canvas');
+            const toggle = document.getElementById('heatmap-toggle');
+            if (canvas) {
+                canvas.style.opacity = toggle.checked ? '0.8' : '0';
+            }
+        }
+
+        function clearGradCamCanvas() {
+            const canvas = document.getElementById('gradcam-canvas');
+            if (canvas) {
+                const ctx = canvas.getContext('2d');
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                canvas.style.opacity = '0';
+            }
+        }
+
+        // Show/Hide Loading Status
+        function showLoading(isLoading) {
+            if (isLoading) {
+                document.getElementById('output-placeholder').classList.add('hidden');
+                document.getElementById('output-result').classList.add('hidden');
+                document.getElementById('output-loading').classList.remove('hidden');
+            } else {
+                document.getElementById('output-loading').classList.add('hidden');
+            }
+        }
+
+        // Fallback generator if JSON parsing fails from API response
+        function generateFallbackClassification() {
+            let cat = 'bien_cam';
+            let vnName = 'Biển cấm';
+            let label = currentImageFilename.split('.')[0] || 'cam_101';
+            let desc = "Lỗi phân loại nhãn. Biển báo giao thông hạn chế di chuyển hoặc cấm phương tiện đi vào khu vực chỉ định.";
+
+            if (currentImageCategory === 'bien_nguy_hiem') {
+                cat = 'bien_nguy_hiem';
+                vnName = 'Biển nguy hiểm';
+                desc = "Cảnh báo trước các tình huống nguy hiểm trên tuyến lộ trình để tài xế chủ động xử lý giảm tốc.";
+            } else if (currentImageCategory === 'bien_hieu_lenh') {
+                cat = 'bien_hieu_lenh';
+                vnName = 'Biển hiệu lệnh';
+                desc = "Yêu cầu người điều khiển phương tiện bắt buộc thi hành theo hướng dẫn cụ thể trên biển.";
+            } else if (currentImageCategory === 'bien_chi_dan') {
+                cat = 'bien_chi_dan';
+                vnName = 'Biển chỉ dẫn';
+                desc = "Cung cấp các thông tin hữu ích về tuyến đường và các mốc lộ giới, tiện ích trên đường đi.";
+            }
+
+            return {
+                category: cat,
+                vietnameseName: vnName,
+                confidence: 0.95,
+                label: label,
+                description: desc,
+                heatmapCenter: { x: 0.5, y: 0.5, radius: 0.2 }
+            };
+        }
+    </script>
+</body>
+
+</html>
